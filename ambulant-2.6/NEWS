@@ -1,0 +1,21 @@
+What's new in Ambulant Player 2.6?
+----------------------------------
+
+- This is mainly a cleanup release, incorporating all fixes we have made in the
+  last 3 years. It will also probably be the last release with browser plugins.
+
+- Binary (PPA) installers for Linux are available.
+
+- Hooks for distributed synchronisation of presentations.
+
+- Handling of video playback has improved.
+
+- SDL-based player for Linux (especilly for embedding) has been added.
+
+- Framework for recording/retransmitting presentations added.
+
+- Live streaming latency greatly reduced.
+
+- Updated all external packages (gtk, ffmpeg, sdl) to modern versions.
+
+- Preliminary support for Android is available.

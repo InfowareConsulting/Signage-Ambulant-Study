@@ -1,0 +1,126 @@
+<!-- Example HTML doc using Ambulant browser plugin for all browsers -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML id="ieambulant_html"  xmlns="http://www.w3.org/1999/xhtml">
+<HEAD id="ieambulant_head">
+<TITLE id="ieambulant_title">ATL 3.0 test page for object ieambulant</TITLE> <script LANGUAGE="JavaScript" type="text/javascript">
+// some functions for Ambulant web browser plugins (IE/Firefox/Safari/Opera)
+var isWatching1 = false;
+var isWatching2 = false;
+
+function ambulantObject(idd)
+{
+    var obj_element = document.getElementById(idd);
+	if (navigator.appName == "Microsoft Internet Explorer") {
+        return obj_element;
+    }
+    var embed_element = obj_element.getElementsByTagName("embed")[0];
+    return embed_element;
+}
+      
+function IsDone(idd)
+{
+    var done = this.ambulantObject(idd).isDone();
+    if (done == true) {
+	    window.status = idd+" done.";
+        if (idd == "ambulant_object1") {
+            this.isWatching1 = false; 
+            this.ambulantObject("ambulant_object1").stopPlayer();
+            this.ambulantObject("ambulant_object2").startPlayer();
+        }
+        if (idd == "ambulant_object2") {
+            this.isWatching2 = false; 
+            this.ambulantObject("ambulant_object2").stopPlayer();
+            this.ambulantObject("ambulant_object1").startPlayer();
+        }
+    } else {
+	    StartTimer (this.timeout,idd)
+    }
+}
+
+function StartTimer(timeout,idd)
+{
+    if (timeout > 0) {
+        this.timeout = timeout;
+        this.timer   = setTimeout('IsDone("'+idd+'")', timeout);
+        window.status = "Watching done...id="+idd;
+        if (idd == "ambulant_object1") isWatching1 = true;
+        if (idd == "ambulant_object2") isWatching2 = true;
+    } else {
+        clearTimeout(this.timer);
+        window.status = "Not watching done. id="+idd;
+        if (idd == "ambulant_object1") isWatching1 = false;
+        if (idd == "ambulant_object2") isWatching2 = false;
+    }
+}
+</script>
+</HEAD>
+
+<BODY id="ieambulant_body">
+<table align="left" cellspacing="0" cellpadding="0" border="0px" width="520px">
+<tbody>
+<tr>
+<td width="240" height="300" valign="top" align="center"> 
+<OBJECT     ID="ambulant_object1"
+            CLASSID="CLSID:014B38CC-E346-4813-AB87-026677D4C75D"
+            codebase="http://www.cwi.nl/~kees/ambulant/test/ieambulant-2.3-win32.cab" 
+      	    width="240"
+		    height="270">
+    <PARAM  name="src"         value="http://ambulantplayer.org/Demos/Welcome/Welcome-smiltext.smil" />
+    <PARAM  name="type" 	   value="application/x-ambulant-smil"/> 
+    <PARAM  name="autostart"   value="true"  />
+    <!-- We hide the inner stuff from IE through magic conditional code -->
+    <!--[if !IE]><![IGNORE[--><![IGNORE[]]>
+      <!-- The inner object tag is for all other browsers. NOTE: use same ID as for outer tag with _inner appended -->
+      <object data="http://ambulantplayer.org/Demos/Welcome/Welcome-smiltext.smil"
+      	type="application/x-ambulant-smil"
+    	width="240"
+    	height="270"
+    	id="my_ambulant_plugin_inner">
+    <div>
+      <table cellspacing="2" cellpadding="0" width="500"  align="center" border="0">
+	    <tr>
+	      <td class="TextFirst">
+	        <a class="TextLink" href="ieambulantWeb.htm">
+	          <img width="65" height="80" valign="middle" src="http://www.ambulantplayer.org/Ambulant/Logo20.gif">
+	        </a>
+	      </td>
+	      <td class="TextSolo">The Ambulant SMIL plugin installer may need confirmation. <br>
+	      	If it has not been installed or it doesn't seem to work, then <br>
+	      	please install
+		    <a class="TextLink" href="http://homepages.cwi.nl/~kees/ambulant/test/npambulantDX-2.3-win32.xpi">
+		      Firefox AmbulantInstaller for Windows XP
+		    </a> <br>
+	      	and optionally the 
+	      	<a class="TextLink" href="http://www.microsoft.com/download/en/confirmation.aspx?id=29">
+	          Microsoft Runtime for Windows XP <br>
+	        </a>
+	          or alternatively
+		    <a class="TextLink" href="http://homepages.cwi.nl/~kees/ambulant/test/npambulant-2.3-win32.xpi">
+		      Firefox AmbulantInstaller for Windows 7
+		    </a> <br>
+	       	  and optionally the 
+	        <a class="TextLink" href="http://www.microsoft.com/download/en/confirmation.aspx?id=5555">
+	          Microsoft Runtime for Windows 7 <br>
+	        </a> to complete the installation.
+	      </td>
+        </tr>
+      </table>
+    </div>
+    </object>
+    <!--<![endif]-->
+</OBJECT>
+<form name="formname">
+<input type=button value="Start"	onclick='ambulantObject("ambulant_object1").startPlayer()'>
+<input type=button value="Stop" 	onclick='ambulantObject("ambulant_object1").stopPlayer()'>
+<input type=button value="Restart"	onclick='ambulantObject("ambulant_object1").restartPlayer()'>
+<br>
+<input type=button value="Resume"	onclick='ambulantObject("ambulant_object1").resumePlayer()'>
+<input type=button value="Pause"	onclick='ambulantObject("ambulant_object1").pausePlayer()'>
+<input type=button value="WatchDone" onclick='if (isWatching1) StartTimer(0,"ambulant_object1"); else StartTimer(500,"ambulant_object1")'>
+</form>
+<!-- -->
+</td> 
+</tbody>
+</table>
+</BODY>
+</HTML>

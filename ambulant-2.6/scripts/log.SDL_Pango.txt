@@ -1,0 +1,3 @@
++ run: pkg-config --atleast-version=0.1.3 SDL_Pango
++ run status: 1
++ mirror download: http://www.ambulantplayer.org/thirdpartymirror/2.6/SDL_Pango-0.1.2.tar.gz

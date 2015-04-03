@@ -1,0 +1,384 @@
+Creating ambulant releases
+==========================
+
+This document explains how to cut releases. Doing a release is very boring
+and tedious, but please follow these guidelines closely. While getting ready
+for a release you should have almost the opposite mindset of during normal
+development: only fix what really needs fixing, and please don't be creative.
+Also remember that testing is very important. If you decide to save 1 minute
+of tedious work by not running all the tests this could well result in another
+bug fix release being needed a few weeks later, leading to _days_ of extra
+work for everyone (including you:-).
+
+
+Version numbers, release branches and tags
+==========================================
+
+We use a strict numbering scheme for versions. Development versions have
+an odd minor number, releases an even one. For example, "1.5" is a development
+version, and is a moving target. Once development is finished and we're
+getting ready for a release (which will be called "1.6") we create a release
+branch called "release-ambulant-16-branch". On this branch, we do the work
+described below. Once everything has been tested and the distributions created
+(and everything checked in:-) we tag the release branch with tag
+"release-ambulant-16". Changes made on the release branch are _not_
+propagated to the trunk at this point.
+
+Now we need to merge the changes to the trunk. Set your working copy
+to the default branch "hg up default" and "hg merge release-ambulant-16-branch". Test and commit.
+
+Some time later a bug fix release "1.6.1" will have to be done. Switch your working
+copy to the "release-ambulant-16-branch" and fix the bugs. Do not add new features,
+and only fix critical bugs! Go through the whole distribution and testing
+rigamarole explained below. When the releases have been created tag
+the branch with "release-ambulant-161". Merge the fixes to the trunk also.
+
+If at some point you fix something on the trunk but later decide you want that
+fix on the release branch too you need to do a bit more. Google for "hg cherry pick"
+to see how to do this.
+
+After the release you need to merge the changes again, but luckily Mercurial
+remembers what we've merged earlier, so the convoluted procedure we had to follow
+for cvs and svn is no longer needed, we simply merge again.
+
+Two final notes: 
+- release 1.8 is named release-new-ambulant-18-branch
+Any derived tag from this release (merge,bugfix, etc.) has to be named
+accordingly (release-new-ambulant-18-merge, release-new-ambulant-181, etc.).
+
+- releases 1.4.X and earlier have not followed these guidelines
+exactly, the branch and tag names are slightly different (release-ambulant-14
+for the branch, release-ambulant-14-tag for the release tag) and the "-merge"
+tag was not used.
+
+Before creating the distribution
+================================
+
+- make sure your CVS tree is up to date and that there are no uncommited files
+- make sure all /*AM_DBG*/ have been changed into AM_DBG
+- make sure all the correct renderers are configured (for example the
+  quicktime video renderer on the mac)
+- If there is a new SMIL release, make sure that --with-smilXX is default on.
+  Also, make sure that textual references are correct (don't call it "SMIL 3.0 RC"
+  if it has gone to rec). Finally, make sure that the DTDs have the correct names
+  in Extras/DTDcache (again, no RC or WD for final recs).
+  Update  Extras/DTDcache/mapping.txt, if applicable.
+- For a major distribution only: fix the 3PP cache on the webserver.
+  - Edit build-third-party-packages.py, variables MIRRORBASE and MIRRORDATE
+  - Run once with -m in the destination folder on ambulantplayer.org
+  - Check that we get the most recent versions of all packages
+  - Check that Ambulant builds with those packages
+- change the version number (and possibly year) in:
+  - configure.ac (2 places!)
+  - include/ambulant/version.h
+  - src/player_macosx/InfoPlist.strings
+  - src/player_macosx/Resources/Info.plist
+  - src/player_mfc/AmbulantPlayer.rc (Dialog IDD_ABOUTBOX)
+  - src/pyambulant/Makefile.am (multiple places)
+  - src/npambulant/install-*.rdf
+  - src/npambulant/manifest-*.json
+  - src/npambulant/manifest.json
+  - src/pyambulant/setup.py
+  - src/pyambulant/test/test_pyambulant.py
+  - scripts/nightlybuilds/*
+  - scripts/build-third-party-packages.py (MIRRORBASE variable)
+  - scripts/autotest.linux.sh
+  - installers/nsis-win32/setup-ambulant-installer.nsi
+  - installers/mkdebiandist.sh
+  - projects/vc9/npambulant-installer.vcproj
+  - projects/vc9/AmbulantActiveX-installer.vcproj (2 times?)
+  - projects/vc10/npambulant-installer.vcxproj (many places)
+  - projects/vc10/AmbulantActiveX-installer.vcxproj (many places)
+  - projects/xcode43/iAmbulant-Info.plist
+  - Documentation/API/Doxyfile
+- check the following files for being up-to-date:
+  - README
+  - INSTALL
+  - debian/changelog
+  - Documentation/misc/README-Distribution (this file)
+  - installers/sh-macos/npambulant-installer-README (is this file used?)
+- Update the icons in the following files:
+  - src/player_mfc/res/AmbulantPlayer.ico
+  - src/player_mfc/res/AmbulantPlayerDoc.ico
+  - src/player_macos/Ambulant*.icns
+- The sources in src/pyambulant need to be regenerated. Currently this can only
+  be done with a Python from cvs, by running "make regenerate-pyambulant".
+- Make sure Documentation/API/{refman,html} are empty: we don't want the
+  full doxygen output in our source distribution
+- You must update NEWS, give a high-level overview of what has changed.
+- You must update Changelog. Something like this should work:
+
+	hg --quiet log -M --style=changelog > ChangeLog
+
+- Update the API documentation in Documentation/API by running doxygen
+  Read and check the documentation for consistency, errors and missing items.
+
+- Update the copyright year:
+  If a year has passed since the last distribution you must update all licenses and
+  other references to the year:
+  - See README-Fixlicense for updating the license text
+  - Check all places the version number has changed (see above), a lot of them will
+    have a copyright year too.
+- Update the translations:
+  - grep for source files using "gettext" and update POTFILES.in
+  - in po, run "make ambulant.pot-update"
+  - Then "make en.po" (or "make ../../po/en.po if running in a separate build tree)
+    and the same for all other languages.
+  - Edit the various ".po" files. Especially check empty strings
+    and fuzzy matches.
+
+Creating the distributions
+==========================
+
+Creating the distributions is done most easily with the nightly build scripts.
+These all take a "branch" argument, which will make them build that branch. Moreover,
+they understand that if the word "release" occurs in the branch name they are doing
+a release build and will adapt filenames and such accordingly.
+
+There is a script scripts/nightlybuilds/mkdistribution.sh that tries to do everything
+for you by starting all the VMs and running the scripts and such.
+
+The next few paragraphs about building distributions are kept here mainly for
+historical interest.
+
+To create the linux source distribution
+=======================================
+
+- Check out a clean copy from CVS, follow the instructions in README-CVS
+- Make sure you configure with *all* options (--with-xerces --with-live)
+  otherwise not all sources will be included
+- Use make distcheck
+- XXXWRONG If make distcheck complains about not being able to find expat (or other packages), 
+  you have to set the path to the expat library via the environment variable, e.g.:
+	DISTCHECK_CONFIGURE_FLAGS="--with-expat=`pwd`/third_party_packages/expat-unix --with-ffmpeg=`pwd`/third_party_packages/ffmpeg-0.4.8" make distcheck
+  (if this still fails, you may try ´sudo make distcheck´)
+- make dist
+- Check on a (preferably virgin) machine, again with all options enabled.
+- Check on a Windows machine too! We've had missing windows-only files before:-)
+- Check on a Mac too, but this is probably a bit less important.
+- Do a "diff -qr" between an unpacked new distribution and an unpacked
+  previous distribution. Look at all files that occur only in the old
+  but not in the new distribution (and vice versa). For each of those
+  determine that this is intended.
+
+Binary distribution contents
+============================
+
+All binary distribution should contain the following files:
+- README
+- the player binary
+- COPYING (The GNU License)
+- DemoPresentation from Extras
+
+Windows desktop also needs:
+- Welcome from Extras
+- AmbulantPlayerHelp.chm from Documentation/user-htmlhelp
+
+Windows CE needs:
+- Welcome from Extras
+
+Creating the MacOSX installer
+=============================
+
+- Create a directory to build in, for example "build-dist-106".
+- Create a third_party_packages in there.
+- In third_party_packages, build the required third party packages, with
+
+    python ../../scripts/build-third-party-packages.py mac10.6
+    
+- Configure (in build-dist-106) with
+
+    ../configure --with-macfat --with-xerces-plugin --disable-dependency-tracking
+  
+- make
+- Install the player, "sudo make install" in src/player_macos.
+  IMPORTANT: at the end of make install, a few calls to "testdependencies"
+  are made. These check that you don't link to non-standard libraries.
+  Make sure these calls produce no output.
+- To create the installer, run the script in installers/sh-macos.
+  Getting the background picture correct is a bit of a trick:
+  - After the disk is mounted, cd to it (terminal window)
+  - mv .folderbg/folderbg.png folderbg.png
+  - In the finder, set it as background picture
+  - mv folderbg.png .folderbg/folderbg.png
+  - align the icons, etc.
+  - cd $HOME
+  - unmount, and continue the script.
+  
+
+Creating the Linux installer
+============================
+
+For this release we will probably not do Linux binary installers,
+but as we have done one before we should write down the procedure here.
+
+Creating the Firefox plugin on Linux
+====================================
+
+- download xulrunner-sdk from mozilla.org into third-party-packages
+- as above, configure --with-npambulant --without-xerces [other options]; make;make install
+- cd src/npambulant;make installer
+  This will create a file named: npambulant-<version>-linux-<arch>.xpi,
+  which can be (downloaded from a website and) opened by firefox to install the plugin. 
+  For a 64 bit platform, this installer will work with a 64 bit firefox.
+  
+  NB. gcc4.4 (FC11) has a bug s.t. when it builds a plugin, on loading
+  this plugin by firefox built with gcc4.3 (FC9,FC10), firefox will crash.
+  The reverse is not true.
+
+Creating the iOS 4.x Ad-Hoc Distribution for beta-testers.
+==========================================================
+
+[Note: this section needs review, it may be outdated as of XCode 4]
+
+As of Oct.22, 2010, the procedure was used as extensively documented at:
+https://developer.apple.com/ios/manage/distribution/index.action
+
+This includes:
+- obtain the UDID's of devices involved in beta testing
+- on the iOS Developer Portal, generate a "Distribution Profile Request" including these UDID's
+- download this new Distribution profile and drag this into Xcode.
+  The project you need is projects/xcode43/iAmbulant.xcodeproj .
+- build for the device using this the "Distribution" configuration.
+  The result will be in projects/xcode43/build/Distribution-iphoneos/iAmbulant.app 
+- Use the installers/mkiphonedist.sh to create an IPA file, which is a zipfile
+  containing a Payload dir containing the app. The app will contain the embedded
+  ad-hoc distribution profile.
+- Upload, tell people to download the IPA file and feed it to iTunes. It will
+  be put on their device during the next sync.
+ 
+  
+Creating the Windows desktop/FF/IE installers
+=============================================
+
+Build the player. Make sure you are building a *ReleaseShlib* player,
+not a *Debug* or *Release* player.
+If you have downloaded all the required packages, and you are using Visual
+Studio 2008 then building Ambulant-win32.sln will not only build the desktop
+player but also the Firefox plugin, the Firefox plugin installer and the
+IE plugin and its installer. The installers for the plugins are deposited
+in the bin\win32 folder (the .xpi and .cab files, respectively).
+
+Use the Nullsoft installer for building the desktop installer. 
+The script is in installers\nsis-win32.
+There are some options at the top of the script, to determine whether
+you do a distribution of a static or dynamically linked player, which
+Visual Studio version you used and a few more options. Check and modify
+these manually before building the installer. The installer is created in the
+installers\nsis-win32 directory.
+
+Testing the distributions
+=========================
+
+Here are some random remarks about testing the distributions. Note that
+during the distribution test period it is important to be thorough and
+precise. If you save yourself a few minute of effort by not testing
+something or not reporting a problem this may well result in an extra
+bugfix release later (which will cost everyone another 2 days or so of work).
+
+Also read README-tests, which has more information on the minimal testing to
+be done.
+
+- IMPORTANT: while we are testing distributions we want to make absolutely
+  sure that any bugs are either (a) fixed or (b) acknowledged as known bugs.
+  Therefore, if you find a bug that you think may be critical you *must*
+  submit a bug report with high priority and assign to the release czar
+  (probably Jack).
+
+- On all platforms, test either on a virgin machine or at least
+  clear out preferences before testing (unix: $HOME/.ambulant;
+  mac: ~/Library/Preferences/org.ambulantplayer.ambulantplayer.plist;
+  windows: HKEY_CURRENT_USER\Software\Ambulant\AmbulantPlayer in the registry).
+  
+- On windows, test on at least Windows 7 and Windows 8.
+  
+- Make sure Welcome plays at first run. Check that the preferences have
+  sensible defaults (log level: trace, parser: expat, log window: closed).
+
+- Then play DemoPresentation/NYC-SMIL2.smil.
+  Then play the website documents. Use the Xerces parser. Open the log window,
+  select "debug" output, and make sure that there aren't any accidental
+  AM_DBG's left on.
+  
+- For each platform, try and get someone knowledgable with the platform but
+  not the Ambulant Player to build the distribution.
+  
+- On the platforms that support it (Linux, Mac) test localisation. We
+  should have at least English and Dutch working.
+  
+- On each platform, check that the version numbers are correct in things
+  like the about dialog, Get Info (Properties) in the Finder (Explorer), etc.
+
+IMPORTANT: for each distribution, compare the size with the previous distribution
+for that platform. If the new one is any smaller, or much bigger, think why
+this could be the case. If you cannot think of a very good reason: investigate!
+
+IMPORTANT: for the final go/nogo, make sure to run the tests from README-tests
+with the final candidate installer.
+  
+Uploading the distributions
+===========================
+
+The new SourceForge file manager scheme is quite a bit simpler than the
+old one, it is basically a hierarchical directory system viewed through the
+web browser. The important toplevel directories are:
+- Ambulant Player Source
+- Ambulant Player for Windows
+- Ambulant Player for MacOSX
+- Ambulant Safari Plugin (mac)
+- Ambulant Firefox Plugin (win)
+- Ambulant Firefox Plugin (Linux)
+- Ambulant Firefox Plugin (Linux 64bit)
+- Ambulant Explorer Plugin
+
+Under each of these, create a folder with the number of the current
+release (for example 2.2). In these folders, download the correct
+installers. Click the cogwheel icons.
+
+IMPORTANT: after you have uploaded all the new versions you must set
+the default download for the most common platforms. Use the Windows player,
+Mac player for those platforms, source for everything else. You make
+a file the default download by clicking on its cogwheel icon and
+selecting "properties".
+
+Proposed naming scheme for release names:
+
+- Binary packages: ambulant-<versionnumber>-<platform>.ext (eg. for
+  windows ambulant-1.2-win32.exe, for mac ambulant-1.2-osx.dmg).
+- Source package: I think the name make distcheck gives to the package is
+  fine. eg ambulant-1.2.tar.gz. Don't use ".tgz", winzip doesn't like it.
+
+Again the minor release number indicates a stable release if the number is even.
+
+
+Updating the website
+====================
+
+To be supplied. Here are some random thoughts:
+- The design and API docs need to be uploaded
+- The SMIL documents need to be uploaded (if changed)
+- The IE plugin may be better off being distributed form our website in
+  stead of from SF.
+
+
+
+Advertising the distributions
+=============================
+
+To be supplied. Some ideas, plus who knows how to submit things:
+- ambulant-announce
+- ambulant-users
+- www-smil
+- W3C (Dick)
+- NLnet (Dick)
+-   http://guide.apple.com/usindex.lasso (jack)
+-   http://www.apple.com/downloads/macosx/submit (jack)
+-   http://www.versiontracker.com/ (jack, userid Jack.Jansen@oratrix.com)
+-   http://www.macshareware.net (jack, userid jackjansen)
+-	A macpad file is in www.cwi.nl/~jack/macpad. There's a pad file there too.
+-   press@macnn.com (jack)
+-   http://www.macupdate.com (jack)
+-   http://www.tucows.com (jack, username ambulant)
+-	http://freshmeat.net (jackjansen)
+- Google for "ambulant" and see which other download sharing sites show up.
+

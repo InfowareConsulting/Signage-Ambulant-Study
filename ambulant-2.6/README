@@ -1,0 +1,150 @@
+Ambulant Player README
+======================
+
+This directory contains version 2.6 of the Ambulant Player,
+a playback engine for SMIL 3.0 (or earlier) documents.
+
+Ambulant consists of a core library implementing the engine,
+a number of GUI-toolkit specific libraries implementing renderers and
+a number of player applications. The core library is also available
+for embedding into C++ or Python programs. The player is also available
+as a plugin for various browsers.
+
+Ambulant is distributed as either a source distribution or a
+binary installer for a specific platform. This README file
+is common to all distributions, see the INSTALL file for instructions on
+building from source. The NEWS file has information on what is new
+in this release.
+
+Ambulant is Open Source: the license is LGPL. See the file
+COPYING for details.
+
+The Ambulant homepage at <http://www.ambulantplayer.org> has more information.
+
+Feedback
+--------
+
+Please let us know about any problem you encounter: first check the FAQ
+on the Ambulant homepage. Of course, there is a good chance we are not 
+aware of your problem at this stage. In that case, either send email to:
+<Ambulant-feedback@ambulantplayer.org> or fill out a bug report at the
+sourceforge bug repository, via <http://sourceforge.net/projects/ambulant>.
+
+See www.ambulantplayer.org for other community resources: mailing lists,
+demo document repositories, etc. We expect to do bugfix releases fairly
+regularly, join the (low-volume) announcements mailing list to be kept
+up-to-date.
+
+We are also specifically interested in cooperation: see the website if
+you are interested in helping to make Ambulant a better product, or
+combining it with your own work, porting to new platforms, etc.
+
+Supported platforms
+-------------------
+
+Currently we have support for:
+- Windows 7
+- MacOSX 10.7 and later
+
+The specific platforms that have been used for testing are:
+- Windows: Windows 7 and 8 on fairly recent Intel hardware
+- MacOSX 10.7: Core 2 Duo or newer
+- Linux: Ubuntu 14.04 on fairly recent Intel hardware
+
+We have preliminary code for iOS and Android.
+
+Supported media types
+---------------------
+
+- Text and smilText supported on all platforms.
+- Images in PNG, JPEG and GIF formats are supported on all
+  platforms. Other formats are supported on some platforms.
+- Audio:
+  - All platforms support audio through ffmpeg and SDL. This allows use
+    of all common audio formats (mp4, mp3, aac, ogg, wav, wma, etc). Access can
+    be from local file or over http or rtsp.
+  - Windows also supports audio through DirectShow, which allows protected
+    WMA file playback and a few less common formats.
+- Video:
+  - All platforms support video through ffmpeg. This allows use of all
+    common formats (h264, mpeg-1/2/4, ogg, some quicktime and wm9).
+  - Windows also supports video through DirectShow.
+
+With audio and video there are some issues with specific combinations of
+containers, codecs, platforms and access protocols. See the website
+(or Documentation/mediasupport in a source distribution) for details.
+
+Networking support
+------------------
+
+This release has support for networked presentations. Streaming 
+media items can be retrieved via HTTP on all platforms,
+static media items and the SMIL file itself can be retrieved via HTTP.
+RTSP support is available, but there are issues with which server
+can actually serve which media types. This seems to be a marketing issue
+on the side of server manufacturers, and is outside our control.
+TCP fallback for RTSP (if UDP is firewalled) is available.
+RTSP is supported through ffmpeg.
+
+SMIL support
+------------
+
+This release includes full support for SMIL 3.0 (along with 2.1 and 2.0).
+
+User interface
+--------------
+
+The user interface is getting better, but still a bit clunky on some
+platforms. There is a logging window in which the player will print
+error messages and such, and a preferences/settings dialog that allows
+you to select which parser to use (the validating Xerces parser or the
+fast expat parser), which level of logging output you want, etc.
+
+Documentation
+-------------
+
+Minimal user documentation is available through the Help menu
+or in the unix manpage.
+
+Documentation of the overall design and the class relationships can be
+found in: Documentation/Design in a source distribution. Detailed
+interface documentation of the classes is in Documentation/API (in a
+source distribution).
+
+Examples
+--------
+
+Two example SMIL documents are included, more are available
+at <http://www.ambulantplayer.org>. In the binary distributions,
+examples are placed in the toplevel distribution directory; in
+source distributions, they are in the Extras directory.
+
+The Welcome document is played automatically the very first time you
+start the Ambulant Player. If you want to see it again you can play
+it via the Help menu.
+
+The DemoPresentation document is a slightly more elaborate example with
+some variations to show off various features of SMIL, a readme
+file is included.
+
+Extending and embedding
+-----------------------
+
+Ambulant can be extended with plugins written in either C++ or Python,
+and it can also be embedded in your own C++ or Python program. The API
+documentation mentioned above is valid for both languages.
+
+C++ programmers should look at src/plugins/rot13plugin.cpp for an
+example plugin and at the various src/player_* directories for examples
+of embedding.
+
+Python programmers should look at src/plugins/pyamplugin_state for an example
+of extending Ambulant in Python, and src/pyambulant/player_pygtk or player_pyqt
+for an embedding example.
+
+Known problems
+--------------
+
+A current list of known problems can be found in the ambulant
+sourceforge bug database, accessible via <http://www.ambulantplayer.org>.
+

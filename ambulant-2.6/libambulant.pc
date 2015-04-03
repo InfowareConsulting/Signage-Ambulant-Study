@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ambulant
+Description: library that renders SMIL
+Version: 2.6
+Requires:
+Libs: -L${libdir} -lambulant 
+Cflags: -I${includedir} -I${includedir}/ambulant

@@ -1,0 +1,9 @@
+libdir=${pcfiledir}/../.libs
+includedir=/home/raghavendra/ambulant-2.6/include
+
+Name: ambulant
+Description: library that renders SMIL
+Version: 2.6
+Requires:
+Libs: -L${libdir} -lambulant 
+Cflags: -I${includedir} -I${includedir}/ambulant

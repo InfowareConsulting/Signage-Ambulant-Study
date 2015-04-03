@@ -1,0 +1,42 @@
+SUBDIRS=unix win32
+library_includedir=$(includedir)/ambulant/lib
+library_include_HEADERS= \
+	abstract_mtsync.h \
+	amstream.h \
+	asb.h \
+	basic_types.h \
+	callback.h \
+	colors.h \
+	delta_timer.h \
+	document.h \
+	event_processor.h \
+	event.h \
+	expat_parser.h \
+	filesys.h \
+	gpaths.h \
+	gtypes.h \
+	logger.h \
+	memfile.h \
+	mtsync.h \
+	nfa.h \
+	node_impl.h \
+	node_iterator.h \
+	node_navigator.h \
+	node.h \
+	nscontext.h \
+	parselets.h \
+	profile.h \
+	refcount.h \
+	sax_handler.h \
+	sax_types.h \
+	string_util.h \
+	system.h \
+	thread.h \
+	textptr.h \
+	timer.h \
+	timer_sync.h \
+	transition_info.h \
+	tree_builder.h \
+	xerces_parser.h \
+	parser_factory.h
+

@@ -1,0 +1,23 @@
+Instructions for building the AmbulantPlayer Firefox plugin version 2.2
+(xulrunner version, with Firefox and other compliant browsers) on Linux (32/64 bit):
+
+A. Build the third_party_packages with scripts/build-third-party-packages.py
+B. ./configure --npambulant --without-xerces
+C1. make install      # installs in $HOME/.mozilla/plugins
+C2.  sudo make install # installs in /usr/lib/mozilla/plugins
+C3. make;(cd src/npambulant;make installer) # creates .xpi installer for to be opened by firefox
+
+Notes:
+1. This is an still an experimental version. Sometimes when npambulant is loaded,
+   Firefox may hang or crash.
+
+2. When installed using method C1 or C2, the plugin will also be recognized by other compatible
+   browsers, such as Google Chrome, Opera etc. Does not work with Konqueror.
+
+3. The current version of npambulant is incompatible with nspluginwrapper.
+   For root installations, you can disable nspluginwrapper by adding
+   ":npambulant*" to the variable IGNORE_WRAP in "/etc/sysconfig/nspluginwrapper"
+
+
+
+   

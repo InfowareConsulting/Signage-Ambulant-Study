@@ -1,0 +1,3 @@
++ run: pkg-config --atleast-version=2.6.9 libxml-2.0
++ run status: 0
++ already installed

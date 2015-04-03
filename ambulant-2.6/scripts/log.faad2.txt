@@ -1,0 +1,3 @@
++ run: test -f /home/raghavendra/ambulant-2.6/scripts/installed/lib/libfaad.a
++ run status: 0
++ already installed

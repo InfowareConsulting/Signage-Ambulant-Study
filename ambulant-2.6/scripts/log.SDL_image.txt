@@ -1,0 +1,6 @@
++ run: pkg-config --atleast-version=1.2.13 SDL2_image
++ run status: 1
++ run: if [ ! -e SDL_image ] ; then  hg clone http://hg.libsdl.org/SDL_image ; fi && cd SDL_image && sh autogen.sh && mkdir -p build && cd build && SDL_CONFIG=`pwd`/../../installed/bin/sdl2-config ../configure --prefix='/home/raghavendra/ambulant-2.6/scripts/installed' &&make ${MAKEFLAGS} && make install &&cd ..
+/bin/sh: 1: hg: not found
++ run status: 127
++ not installed

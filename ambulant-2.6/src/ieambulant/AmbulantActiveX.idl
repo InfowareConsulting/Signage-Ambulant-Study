@@ -1,0 +1,59 @@
+// AmbulantActiveX.idl : IDL source for AmbulantActiveX.dll
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (AmbulantActiveX.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+#include "olectl.h"
+	[
+		object,
+		uuid(EC21585F-0FA8-43ce-948D-5E6A480C3F0D),
+		dual,
+		helpstring("Iieambulant Interface"),
+		pointer_default(unique)
+	]
+	interface Iieambulant : IDispatch
+	{
+		[propget, id(1), helpstring("property mime type")] HRESULT mimeType([out, retval] BSTR *pVal);
+		[propput, id(1), helpstring("property mime type")] HRESULT mimeType([in] BSTR newVal);
+		[propget, id(2), helpstring("property src")] HRESULT src([out, retval] BSTR* pVal);
+		[propput, id(2), helpstring("property src")] HRESULT src([in] BSTR newVal);
+		[propget, id(3), helpstring("property autostart")] HRESULT autostart([out, retval] BSTR* pVal);
+		[propput, id(3), helpstring("property autostart")] HRESULT autostart([in] BSTR newVal);
+		HRESULT startPlayer();
+		HRESULT stopPlayer();
+		HRESULT restartPlayer();
+		HRESULT resumePlayer();
+		HRESULT pausePlayer();
+		HRESULT isDone([out, retval] BOOL* pVal);
+	};
+[
+	uuid(58F78FB2-BBCE-4f01-BD56-171513A0EE8C),
+	version(1.0),
+	helpstring("AmbulantActiveX 1.0 Type Library")
+]
+library AmbulantACTIVEXLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(3060094F-51E1-42bf-AA99-97BB641329E8),
+		helpstring("_IieambulantEvents Interface")
+	]
+	dispinterface _IieambulantEvents
+	{
+		properties:
+		methods:
+	};
+
+	[
+		uuid(014B38CC-E346-4813-AB87-026677D4C75D),
+		helpstring("ieambulant Class")
+	]
+	coclass ieambulant
+	{
+		[default] interface Iieambulant;
+		[default, source] dispinterface _IieambulantEvents;
+	};
+};

@@ -1,0 +1,1182 @@
+##########################
+##                      ##
+## AmbulanPlayer_gtk/qt ##
+##                      ##
+##########################
+#
+# Ambulant/Helgrind
+#
+# third_party_packages
+#
+# Arts is OK
+{
+   Ambulant-Arts-1
+   Helgrind:Race
+   fun:_ZN4Arts6Buffer8toStringERKSs
+   obj:*
+}
+{
+   Ambulant-Arts-2
+   Helgrind:Race
+   fun:_ZN4Arts16SocketConnection8notifyIOEii
+   obj:*
+}
+# ffmpeg is OK
+{
+   Ambulant-ffmpeg-1
+   Helgrind:Race
+   fun:av_read_frame_internal
+   obj:*
+}
+{
+   Ambulant-ffmpeg-2
+   Helgrind:Race
+   fun:av_parser_parse
+   obj:*
+}
+{
+   Ambulant-ffmpeg-3
+   Helgrind:Race
+   obj:*
+   fun:av_parser_parse
+   obj:*
+}
+{
+   Ambulant-ffmpeg-4
+   Helgrind:Race
+   obj:*
+   obj:*
+   fun:av_parser_parse
+   obj:*
+}
+{
+   Ambulant-ffmpeg-5
+   Helgrind:Race
+   fun:av_destruct_packet
+   obj:*
+}
+{
+   Ambulant-ffmpeg-6
+   Helgrind:Race
+   fun:av_get_packet
+   obj:*
+}
+{
+   Ambulant-ffmpeg-7
+   Helgrind:Race
+   obj:*
+   fun:av_get_packet
+   obj:*
+}
+{
+   Ambulant-ffmpeg-8
+   Helgrind:Race
+   obj:*
+   fun:av_read_frame_internal
+   obj:*
+}
+{
+   Ambulant-ffmpeg-9
+   Helgrind:Race
+   obj:*
+   fun:av_*
+   obj:*
+}
+{
+   Ambulant-ffmpeg-10
+   Helgrind:Race
+   fun:decode_frame
+   obj:*
+}
+{
+   Ambulant-ffmpeg-11
+   Helgrind:Race
+   fun:mpegaudio_parse
+   fun:*
+}
+{
+   Ambulant-ffmpeg-12
+   Helgrind:Race
+   fun:ff_init_buffer_info
+   fun:*
+}
+{
+   Ambulant-ffmpeg-13
+   Helgrind:Race
+   fun:parse_packet
+   fun:*
+}
+
+# glib is OK
+{
+   Ambulant-glib-1
+   Helgrind:Race
+   fun:g_source_attach
+   obj:*
+}
+{
+   Ambulant-glib-2
+   Helgrind:Race
+   obj:*
+   fun:g_source_attach
+   obj:*
+}
+{
+   Ambulant-glib-3
+   Helgrind:Race
+   fun:g_main_context_prepare
+   obj:*
+}
+{
+   Ambulant-glib-4a
+   Helgrind:Race
+   obj:*
+   fun:g_main_context_dispatch
+   obj:*
+}
+{
+   Ambulant-glib-4b
+   Helgrind:Race
+   obj:*
+   obj:*
+   fun:g_main_context_dispatch
+   obj:*
+}
+{
+   Ambulant-glib-4c
+   Helgrind:Race
+   obj:*
+   obj:*
+   obj:*
+   fun:g_main_context_dispatch
+   obj:*
+}
+{
+   Ambulant-glib-5
+   Helgrind:Race
+   obj:*
+   fun:g_source_remove
+   obj:*
+}
+{
+   Ambulant-glib-6
+   Helgrind:Race
+   fun:g_main_context_check
+   obj:*
+}
+{
+   Ambulant-glib-7
+   Helgrind:Race
+   obj:*
+   obj:*
+   obj:*
+   fun:gtk_container_forall
+}
+{
+   Ambulant-glib-8
+   Helgrind:Race
+   obj:*
+   fun:g_cclosure_marshal_VOID__BOXED
+}
+{
+   Ambulant-glib-9
+   Helgrind:Race
+   obj:*
+   fun:gdk_window_move_resize
+   obj:*
+}
+{
+   Ambulant-glib-10
+   Helgrind:Race
+   fun:g_*
+   obj:*
+}
+{
+   Ambulant-glib-11
+   Helgrind:Race
+   fun:gtk_text_buffer_get_iter_at_mark
+   obj:*
+}
+{
+   Ambulant-glib-11a
+   Helgrind:Race
+   obj:*
+   fun:gtk_text_buffer_get_iter_at_mark
+   obj:*
+}
+{
+   Ambulant-glib-11b
+   Helgrind:Race
+   obj:*
+   obj:*
+   fun:gtk_text_buffer_get_iter_at_mark
+   obj:*
+}
+{
+   Ambulant-glib-11c
+   Helgrind:Race
+   obj:*
+   obj:*
+   obj:*
+   fun:gtk_text_buffer_get_iter_at_mark
+   obj:*
+}
+{
+   Ambulant-glib-11d
+   Helgrind:Race
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   fun:gtk_text_buffer_get_iter_at_mark
+   obj:*
+}
+{
+   Ambulant-glib-12
+   Helgrind:Race
+   fun:gtk_text_layout_validate_yrange
+   obj:*
+}
+{
+   Ambulant-glib-12a
+   Helgrind:Race
+   obj:*
+   fun:gtk_text_layout_validate_yrange
+   obj:*
+}
+{
+   Ambulant-glib-13
+   Helgrind:Race
+   fun:gtk_text_layout_get_line_display
+   obj:*
+}
+{
+   Ambulant-glib-13a
+   Helgrind:Race
+   obj:*
+   fun:gtk_text_layout_get_line_display
+   obj:*
+}
+{
+   Ambulant-glib-13b
+   Helgrind:Race
+   obj:*
+   obj:*
+   fun:gtk_text_layout_get_line_display
+   obj:*
+}
+{
+
+   Ambulant-glib-13c
+   Helgrind:Race
+   obj:*
+   obj:*
+   obj:*
+   fun:gtk_text_layout_get_line_display
+   obj:*
+}
+{
+   Ambulant-glib-14
+   Helgrind:Race
+   obj:*
+   fun:g_signal_emit_valist
+   obj:*
+}
+{
+   Ambulant-glib-16
+   Helgrind:Race
+   obj:*
+   fun:g_hash_table_insert
+   obj:*
+}
+{
+   Ambulant-glib-17
+   Helgrind:Race
+   fun:gdk_region_rectangle
+}
+{
+   Ambulant-glib-18
+   Helgrind:Race
+   obj:/usr/lib/libgtk-x11-2.0.so.0.1000.8
+   obj:/usr/lib/libgtk-x11-2.0.so.0.1000.8
+   obj:/usr/lib/libgtk-x11-2.0.so.0.1000.8
+   obj:/lib/libglib-2.0.so.0.1200.9
+   fun:g_main_context_dispatch
+   obj:/lib/libglib-2.0.so.0.1200.9
+   fun:g_main_loop_run
+   fun:main
+}
+{
+   Ambulant-glib-19
+   Helgrind:Race
+   fun:memset
+   fun:g_list_alloc
+   obj:*
+}
+{
+   Ambulant-glib-20
+   Helgrind:Race
+   obj:*
+   obj:*
+   fun:gtk_text_layout_validate
+   obj:*
+}
+{
+   Ambulant-glib-21
+   Helgrind:Race
+   obj:*
+   obj:*
+   obj:*
+   fun:gtk_text_layout_validate
+   obj:*
+}
+
+# SDL is OK
+{
+   Ambulant-SDL-1
+   Helgrind:Race
+   obj:*	
+   obj:/usr/lib/libSDL-1.2.so.0.11.0
+   obj:*
+}
+{
+   Ambulant-SDL-2
+   Helgrind:Misc
+   fun:_Exit
+   obj:/usr/lib/libSDL-1.2.so.0.11.0
+}
+
+
+# Ambulant verified
+
+# virtual destructors must modify vtable, is OK.
+# See: Electronic Notes in Theoretical Computer Science
+# Volume 174, Issue 9, 22 June 2007, Pages 5-22
+{
+   Ambulant-virtual-destructor-1
+   Helgrind:Race
+   fun:_ZN8ambulant3lib4unix15event_processorD0Ev
+   obj:*
+}
+{
+   Ambulant-virtual-destructor-2
+   Helgrind:Race
+   fun:_ZN12gtk_mainloopD0Ev
+   obj:*
+}
+{
+   Ambulant-virtual-destructor-3
+   Helgrind:Race
+   fun:_ZN8ambulant5smil211smil_playerD0Ev
+   obj:*
+}
+{
+   Ambulant-virtual-destructor-4
+   Helgrind:Race
+   fun:_ZN8ambulant5smil211region_nodeD0Ev
+   obj:*
+}
+{
+   Ambulant-virtual-destructor-5
+   Helgrind:Race
+   fun:_ZN11qt_mainloopD0Ev
+   fun:_ZN6qt_gui9slot_quitEv
+   obj:*
+}
+{
+   Ambulant-virtual-destructor-6
+   Helgrind:Race
+   fun:_ZN8ambulant6common12surface_implD0Ev
+   obj:*
+}
+
+{
+   # delete this is OK when ref_count == 0
+   Ambulant-ref_counted_obj-1
+   Helgrind:Race
+   obj:*
+   fun:_ZN8ambulant3lib15ref_counted_obj7releaseEv
+}
+{
+   # delete this is OK when ref_count == 0
+   Ambulant-ref_counted_obj-2
+   Helgrind:Race
+   obj:*
+   obj:*
+   fun:_ZN8ambulant3lib15ref_counted_obj7releaseEv
+}
+{
+   # exit-requested flag is compiler checked read-only
+   Ambulant-exit-reuqested-1
+   Helgrind:Race
+   fun:_ZN8ambulant3lib4unix15event_processor3runEv
+   obj:*
+}
+{
+   Ambulant-exit-requested-2
+   Helgrind:Race
+   fun:_ZNK8ambulant3lib4unix6thread14exit_requestedEv
+   obj:*
+}
+{
+   Ambulant-exit-requested-3
+   Helgrind:Race
+   fun:_ZN8ambulant3lib4unix6thread4stopEv
+   obj:*
+}
+{
+   # is_running flag is compiler checked read-only
+   Ambulant-is_running-1
+   Helgrind:Race
+   fun:_ZN8ambulant3lib4unix6thread10threadprocEPv
+   obj:*
+}
+
+############ TBD uninvestigated ############
+{
+   # At least, the code warns you for this potential deadlock with the
+   # message "potential deadlock ahead". It would be better, though, if
+   # we forestall the deadlock:-)
+   Ambulantlock-potential-deadlock-1
+   Helgrind:Race
+   fun:_ZN8ambulant5smil29scheduler4lockEv
+   obj:*
+}
+{
+   Ambulant-TBD-2
+   Helgrind:Race
+   fun:_ZN8ambulant5smil29time_node18raise_update_eventENS0_11q_smil_timeE
+   obj:*
+}
+#{
+#   Ambulant-TBD-3
+#   Helgrind:Race
+#   fun:_ZN8ambulant5smil29time_node19update_interval_endENS0_11q_smil_timeENS0_9smil_timeIlEE
+#   fun:_ZN8ambulant5smil212active_state11sync_updateENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil29time_node11sync_updateENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil29time_node4execENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil29scheduler5_execEm
+#   fun:_ZN8ambulant5smil29scheduler5_execEv
+#   fun:_ZN8ambulant5smil29scheduler4execEv
+#   fun:_ZN8ambulant5smil211smil_player7_updateEv
+#   fun:_ZN8ambulant5smil211smil_player5startEv
+#   fun:_ZN8ambulant6common10gui_player4playEv
+#   fun:_ZN7gtk_gui7do_playEv
+#   fun:main
+#}
+#{
+#   Ambulant-TBD-4
+#   Helgrind:Race
+#   fun:_ZN8ambulant5smil29time_node15played_intervalENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil212active_state4exitENS0_11q_smil_timeEPNS0_9time_nodeE
+#   fun:_ZN8ambulant5smil29time_node9set_stateENS0_15time_state_typeENS0_11q_smil_timeEPS1_
+#   fun:_ZN8ambulant5smil29time_node12set_state_exENS0_15time_state_typeENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil29time_node4execENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil29scheduler5_execEm
+#   obj:*
+#}
+#{
+#   Ambulant-TBD-5
+#   Helgrind:Race
+#   fun:_ZNK8ambulant5smil29smil_timeIlEneERKS2_
+#   fun:_ZN8ambulant5smil29time_node16get_implicit_durEv
+#   fun:_ZN8ambulant5smil29time_calc8calc_durEv
+#   fun:_ZN8ambulant5smil29time_calc20calc_intermediate_adEv
+#   fun:_ZN8ambulant5smil29time_calc19calc_preliminary_adENS0_9smil_timeIlEE
+#   fun:_ZN8ambulant5smil29time_calc7calc_adENS0_9smil_timeIlEE
+#   fun:_ZN8ambulant5smil29time_calc8calc_endENS0_9smil_timeIlEE
+#   fun:_ZN8ambulant5smil29time_calc17calc_interval_endERNS0_13smil_intervalIlEERSt8multisetINS0_9smil_timeIlEESt4lessIS7_ESaIS7_EE
+#   fun:_ZN8ambulant5smil29time_node25calc_current_interval_endEv
+#   fun:_ZN8ambulant5smil212active_state11sync_updateENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil29time_node11sync_updateENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil29time_node4execENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil29scheduler5_execEm
+#   fun:_ZN8ambulant5smil29scheduler5_execEv
+#   fun:_ZN8ambulant5smil29scheduler4execEv
+#   fun:_ZN8ambulant5smil211smil_player7_updateEv
+#   fun:_ZN8ambulant5smil211smil_player5startEv
+#   fun:_ZN8ambulant6common10gui_player4playEv
+#   fun:_ZN7gtk_gui7do_playEv
+#   fun:main
+#}
+{
+   Ambulant-TBD-6
+   Helgrind:Race
+   fun:_ZN8ambulant5smil29time_node5resetEv
+   fun:_ZN8ambulant5smil29scheduler15_reset_documentEv
+   obj:*
+}
+#{
+#   Ambulant-TBD-7
+#   Helgrind:Race
+#   fun:_ZN8ambulant5smil29time_node15raise_end_eventENS0_11q_smil_timeEPS1_
+#   fun:_ZN8ambulant5smil212active_state4exitENS0_11q_smil_timeEPNS0_9time_nodeE
+#   fun:_ZN8ambulant5smil29time_node9set_stateENS0_15time_state_typeENS0_11q_smil_timeEPS1_
+#   fun:_ZN8ambulant5smil29time_node12set_state_exENS0_15time_state_typeENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil29time_node4execENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil29scheduler5_execEm
+#   obj:*
+#}
+# 
+{
+   Ambulant-TBD-8
+   Helgrind:Race
+   fun:memset
+   obj:/usr/lib/libpango-1.0.so.0.1400.10
+   obj:/usr/lib/libpango-1.0.so.0.1400.10
+   fun:pango_log2vis_get_embedding_levels
+   obj:*
+}
+#{
+#   Ambulant-TBD-9
+#   Helgrind:Race
+#   fun:_ZN8ambulant5smil29time_node8end_condENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil29time_node4execENS0_11q_smil_timeE
+#   fun:_ZN8ambulant5smil29scheduler5_execEm
+#   obj:*
+#}
+#
+{
+   Ambulant-TBD-12
+   Helgrind:Race
+   fun:_ZNSs9_M_mutateEjjj
+   fun:_ZNSs15_M_replace_safeEjjPKcj
+   fun:_ZNSs6assignEPKcj
+   fun:_ZNSsaSEPKc
+   fun:_ZN8ambulant3lib13basic_scannerIcE4nextEv
+   fun:_ZN8ambulant3lib13basic_scannerIcE8tokenizeEv
+   fun:_ZN8ambulant3net3url13set_from_specERKSs
+   obj:*
+}
+{
+   Ambulant-TBD-13
+   Helgrind:Race
+   fun:_ZN8ambulant6common23renderer_playable_dsall8readdoneEv
+   obj:*
+}
+{
+   Ambulant-TBD-14
+   Helgrind:Race
+   fun:_ZN8ambulant3lib10basic_rect*
+   obj:*
+}
+{
+   Ambulant-TBD-15
+   Helgrind:Race
+   fun:_ZN8ambulant6common12surface_impl11need_boundsEv
+   obj:*
+}
+{
+   Ambulant-TBD-16
+   Helgrind:Race
+   fun:_ZN8ambulant3gui3gtk18gtk_image_renderer11redraw_bodyERKNS_3lib10basic_rectIijEEPNS_6common10gui_windowE
+   obj:*
+}
+{
+   Ambulant-TBD-17
+   Helgrind:Race
+   fun:_ZNK8ambulant3lib10basic_rectIijE8left_topEv
+   obj:*
+}
+{
+   Ambulant-TBD-18
+   Helgrind:Race
+   fun:_ZNSt15_Deque_iteratorIN8ambulant3net11ts_packet_tERS2_PS2_EC1ERKS5_
+   obj:*
+}
+{
+   Ambulant-TBD-24
+   Helgrind:Race
+   fun:_ZNSt4listISt4pairIPN8ambulant3lib5eventEmESaIS5_EE5beginEv
+   obj:*
+}
+{
+   Ambulant-TBD-27
+   Helgrind:Race
+   fun:snd_pcm_mmap_writei
+   fun:snd_pcm_writei
+   obj:/usr/lib/libSDL-1.2.so.0.11.0
+   obj:/usr/lib/libSDL-1.2.so.0.11.0
+   obj:/usr/lib/libSDL-1.2.so.0.11.0
+   obj:/usr/lib/libSDL-1.2.so.0.11.0
+   fun:mythread_wrapper
+   fun:start_thread
+   fun:clone
+}
+{
+   Ambulant-TBD-28
+   Helgrind:Race
+   fun:_ZNK7QRegion12boundingRectEv
+   fun:_ZN7QWidget7repaintERK7QRegionb
+   fun:_ZN12QApplication16sendPostedEventsEP7QObjecti
+   fun:_ZN12QApplication16sendPostedEventsEv
+   fun:_ZN10QEventLoop13processEventsEj
+   fun:_ZN10QEventLoop9enterLoopEv
+   fun:_ZN12QApplication10enter_loopEv
+   fun:_ZN7QDialog4execEv
+   obj:/usr/lib/qt-3.3/lib/libqt-mt.so.3.3.7
+   fun:_ZN6qt_gui11customEventEP12QCustomEvent
+   fun:_ZN7QObject5eventEP6QEvent
+   fun:_ZN7QWidget5eventEP6QEvent
+}
+{
+   Ambulant-TBD-29
+   Helgrind:Race
+   fun:_ZN9QETWidget20translateConfigEventEPK7_XEvent
+   fun:_ZN12QApplication15x11ProcessEventEP7_XEvent
+   fun:_ZN10QEventLoop13processEventsEj
+   fun:_ZN10QEventLoop9enterLoopEv
+   fun:_ZN12QApplication10enter_loopEv
+   fun:_ZN7QDialog4execEv
+   obj:/usr/lib/qt-3.3/lib/libqt-mt.so.3.3.7
+   fun:_ZN6qt_gui11customEventEP12QCustomEvent
+   fun:_ZN7QObject5eventEP6QEvent
+   fun:_ZN7QWidget5eventEP6QEvent
+   fun:_ZN12QApplication14internalNotifyEP7QObjectP6QEvent
+   fun:_ZN12QApplication6notifyEP7QObjectP6QEvent
+}
+{
+   Ambulant-TBD-31
+   Helgrind:Race
+   fun:_ZN8ambulant3gui2qt17qt_image_renderer11redraw_bodyERKNS_3lib10basic_rectIijEEPNS_6common10gui_windowE
+   fun:_ZN8ambulant3gui2qt11qt_rendererINS_6common23renderer_playable_dsallEE6redrawERKNS_3lib10basic_rectIijEEPNS3_10gui_windowE
+   fun:_ZN8ambulant6common12surface_impl6redrawERKNS_3lib10basic_rectIijEEPNS0_10gui_windowE
+   fun:_ZN8ambulant6common12surface_impl6redrawERKNS_3lib10basic_rectIijEEPNS0_10gui_windowE
+   fun:_ZN8ambulant6common12surface_impl6redrawERKNS_3lib10basic_rectIijEEPNS0_10gui_windowE
+   fun:_ZN8ambulant3gui2qt18ambulant_qt_window6redrawERKNS_3lib10basic_rectIijEE
+   fun:_ZN8ambulant3gui2qt18qt_ambulant_widget10paintEventEP11QPaintEvent
+   fun:_ZN7QWidget5eventEP6QEvent
+   fun:_ZN12QApplication14internalNotifyEP7QObjectP6QEvent
+   fun:_ZN12QApplication6notifyEP7QObjectP6QEvent
+   fun:_ZN7QWidget7repaintERK7QRegionb
+   fun:_ZN12QApplication16sendPostedEventsEP7QObjecti
+}
+{
+   Ambulant-TBD-32
+   Helgrind:Race
+   fun:_ZN7QRegionD1Ev
+   fun:_ZN7QWidget6updateEiiii
+   fun:_ZN8ambulant3gui2qt18ambulant_qt_window11need_redrawERKNS_3lib10basic_rectIijEE
+   fun:_ZN8ambulant6common21toplevel_surface_impl11need_redrawERKNS_3lib10basic_rectIijEE
+   fun:_ZN8ambulant6common12surface_impl11need_redrawERKNS_3lib10basic_rectIijEE
+   fun:_ZN8ambulant6common12surface_impl11need_redrawERKNS_3lib10basic_rectIijEE
+   fun:_ZN8ambulant6common12surface_impl11need_redrawEv
+   fun:_ZN8ambulant6common12surface_impl4showEPNS0_10gui_eventsE
+   fun:_ZN8ambulant6common17renderer_playable5startEd
+   fun:_ZN8ambulant6common20renderer_playable_ds5startEd
+   fun:_ZN8ambulant3gui2qt11qt_rendererINS_6common23renderer_playable_dsallEE5startEd
+   fun:_ZN8ambulant5smil29time_node14start_playableENS0_9smil_timeIlEE
+}
+{
+   Ambulant-TBD-33
+   Helgrind:Race
+   fun:_ZN8ambulant3gui4none18none_area_renderer4stopEv
+   fun:_ZN8ambulant5smil211smil_player16destroy_playableEPNS_6common8playableEPKNS_3lib14node_interfaceE
+   fun:_ZN8ambulant5smil211smil_player13stop_playableEPKNS_3lib14node_interfaceE
+   fun:_ZN8ambulant5smil29time_node13stop_playableEv
+   fun:_ZN8ambulant5smil29time_node6removeENS0_11q_smil_timeE
+   fun:_ZN8ambulant5smil29time_node6removeENS0_11q_smil_timeE
+   fun:_ZN8ambulant5smil29time_node6removeENS0_11q_smil_timeE
+   fun:_ZN8ambulant5smil29time_node6removeENS0_11q_smil_timeE
+   fun:_ZN8ambulant5smil29time_node4fillENS0_11q_smil_timeE
+   fun:_ZN8ambulant5smil212active_state4exitENS0_11q_smil_timeEPNS0_9time_nodeE
+   fun:_ZN8ambulant5smil29time_node9set_stateENS0_15time_state_typeENS0_11q_smil_timeEPS1_
+   fun:_ZN8ambulant5smil29time_node12set_state_exENS0_15time_state_typeENS0_11q_smil_timeE
+}
+{
+   Ambulant-TBD-35
+   Helgrind:Race
+   fun:_ZN8ambulant3gui4none18none_area_renderer4stopEv
+   fun:_ZN8ambulant5smil211smil_player17_destroy_playableEPNS_6common8playableEPKNS_3lib14node_interfaceE
+   fun:_ZN8ambulant5smil211smil_player13stop_playableEPKNS_3lib14node_interfaceE
+   fun:_ZN8ambulant5smil29time_node13stop_playableEv
+   obj:*
+}
+{
+   Ambulant-TBD-36
+   Helgrind:Race
+   fun:_ZN20event_processor_impl3runEv
+   fun:*
+}
+{
+   Ambulant-TBD-37
+   Helgrind:Race
+   fun:_ZNK8ambulant5smil29scheduler6lockedEv
+   fun:*
+}
+{
+   Ambulant-exit-main
+   Helgrind:Race
+   obj:/usr/lib/libmcop.so.1.0.0
+   fun:exit
+   fun:(below main)
+}
+{
+   Ambulant-global-destructors
+   Helgrind:Race
+   fun:_ZNSt10_List_baseIPN8ambulant3gui3sdl18sdl_audio_rendererESaIS4_EE8_M_clearEv
+   fun:_ZNSt10_List_baseIPN8ambulant3gui3sdl18sdl_audio_rendererESaIS4_EED2Ev
+   fun:_ZNSt4listIPN8ambulant3gui3sdl18sdl_audio_rendererESaIS4_EED1Ev
+   fun:__tcf_7
+   fun:exit
+   fun:(below main)
+}
+#####################
+# Ambulant-Memcheck #
+#####################
+#
+# X is OK
+{
+   Ambulant-Memcheck-X-1
+   Memcheck:Param
+   writev(vector[...])
+   fun:writev
+   obj:*
+   fun:_X11TransWritev
+}
+{
+   Ambulant-Memcheck-X-2
+   Memcheck:Param
+   write(buf)
+   obj:*
+   fun:_X11TransWrite
+}
+# SDL is OK
+{
+   Ambulant-Memcheck-SDL-1
+   Memcheck:Param
+   ioctl(arg)
+   fun:ioctl
+   fun:snd_pcm_prepare
+   obj:*
+}
+{
+   Ambulant-Memcheck-SDL-2
+   Memcheck:Param
+   ioctl(arg)
+   fun:ioctl
+   fun:snd_pcm_start
+   obj:*
+}
+{
+   Ambulant-Memcheck-SDL-3
+   Memcheck:Param
+   ioctl(arg)
+   fun:ioctl
+   fun:snd_pcm_hwsync
+   obj:*
+}
+{
+   Ambulant-Memcheck-SDL-4
+   Memcheck:Param
+   ioctl(arg)
+   fun:ioctl
+   fun:snd_timer_start
+   obj:*
+}
+{
+   Ambulant-Memcheck-SDL-5
+   Memcheck:Param
+   ioctl(arg)
+   fun:ioctl
+   fun:snd_timer_stop
+   obj:*
+}
+{
+   Ambulant-Helgrind-SDL-1
+   Helgrind:Race
+   fun:SDL_AudioLockDevice_Default
+   fun:*
+}
+########### Ambulant-Leak-TBD ##############
+{
+   Ambulant-Leak-TBD-1
+   Memcheck:Leak
+   fun:_Znwj
+   fun:_ZN8ambulant3gui2qt24create_qt_window_factoryEP7QWidgetiPNS_6common10gui_playerE
+   fun:_ZN11qt_mainloopC1EP6qt_guii
+   obj:*
+}
+{
+   Ambulant-Leak-TBD-2
+   Memcheck:Leak
+   fun:_Znwj
+   fun:_ZN11qt_mainloop23init_datasource_factoryEv
+   fun:_ZN8ambulant6common9factories14init_factoriesEv
+   fun:_ZN11qt_mainloopC1EP6qt_guii
+   fun:_ZN6qt_gui12openSMILfileE7QStringi
+   fun:main
+}
+{
+   Ambulant-Leak-TBD-3
+   Memcheck:Leak
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.1
+   fun:_ZN8ambulant3lib4unix6thread5startEv
+   fun:_ZN8ambulant3net29ffmpeg_raw_datasource_factory18new_raw_datasourceERKNS0_3urlE
+   fun:_ZN8ambulant3net18datasource_factory18new_raw_datasourceERKNS0_3urlE
+   fun:_ZN8ambulant6common20renderer_playable_dsC2EPNS0_21playable_notificationEiPKNS_3lib14node_interfaceEPNS4_15event_processorEPNS0_9factoriesE
+   fun:_ZN8ambulant6common23renderer_playable_dsallC2EPNS0_21playable_notificationEiPKNS_3lib14node_interfaceEPNS4_15event_processorEPNS0_9factoriesE
+   fun:_ZN8ambulant3gui2qt11qt_rendererINS_6common23renderer_playable_dsallEEC2EPNS3_21playable_notificationEiPKNS_3lib14node_interfaceEPNS8_15event_processorEPNS3_9factoriesE
+   fun:_ZN8ambulant3gui2qt17qt_image_rendererC1EPNS_6common21playable_notificationEiPKNS_3lib14node_interfaceEPNS6_15event_processorEPNS3_9factoriesE
+   fun:_ZN8ambulant3gui2qt19qt_renderer_factory12new_playableEPNS_6common21playable_notificationEiPKNS_3lib14node_interfaceEPNS6_15event_processorE
+   fun:_ZN8ambulant6common28global_playable_factory_impl12new_playableEPNS0_21playable_notificationEiPKNS_3lib14node_interfaceEPNS4_15event_processorE
+}
+{
+   Ambulant-Leak-TBD-4
+   Memcheck:Leak
+   fun:memalign
+   fun:av_malloc
+   fun:avcodec_open
+   fun:_ZN8ambulant3net25ffmpeg_decoder_datasource15_select_decoderERNS0_12audio_formatE
+   fun:_ZN8ambulant3net25ffmpeg_decoder_datasourceC1EPNS0_20pkt_audio_datasourceE
+   fun:_ZN8ambulant3net31ffmpeg_audio_datasource_factory20new_audio_datasourceERKNS0_3urlERKNS0_20audio_format_choicesExx
+   fun:_ZN8ambulant3net18datasource_factory20new_audio_datasourceERKNS0_3urlERKNS0_20audio_format_choicesExx
+   fun:_ZN8ambulant3gui3sdl18sdl_audio_rendererC1EPNS_6common21playable_notificationEiPKNS_3lib14node_interfaceEPNS6_15event_processorEPNS3_9factoriesE
+   fun:_ZN8ambulant3gui3sdl20sdl_renderer_factory12new_playableEPNS_6common21playable_notificationEiPKNS_3lib14node_interfaceEPNS6_15event_processorE
+   fun:_ZN8ambulant6common28global_playable_factory_impl12new_playableEPNS0_21playable_notificationEiPKNS_3lib14node_interfaceEPNS4_15event_processorE
+   fun:_ZN8ambulant5smil211smil_player12new_playableEPKNS_3lib14node_interfaceE
+   fun:_ZN8ambulant5smil211smil_player15create_playableEPKNS_3lib14node_interfaceE
+}
+{
+   Ambulant-Leak-TBD-5
+   Memcheck:Leak
+   fun:malloc
+   fun:_ZN8ambulant3net22demux_audio_datasource10data_availExPKhi
+   fun:_ZN8ambulant3net12ffmpeg_demux15remove_datasinkEi
+   fun:_ZN8ambulant3net22demux_audio_datasource4stopEv
+   fun:_ZN8ambulant3net25ffmpeg_decoder_datasource4stopEv
+   fun:_ZN8ambulant3gui3sdl18sdl_audio_renderer4stopEv
+   fun:_ZN8ambulant5smil211smil_player16destroy_playableEPNS_6common8playableEPKNS_3lib14node_interfaceE
+   fun:_ZN8ambulant5smil211smil_player13stop_playableEPKNS_3lib14node_interfaceE
+   fun:_ZN8ambulant5smil29time_node13stop_playableEv
+   fun:_ZN8ambulant5smil29time_node6removeENS0_11q_smil_timeE
+   fun:_ZN8ambulant5smil29time_node4fillENS0_11q_smil_timeE
+   fun:_ZN8ambulant5smil212active_state4exitENS0_11q_smil_timeEPNS0_9time_nodeE
+}
+{
+   Ambulant-Leak-TBD-6
+   Memcheck:Leak
+   fun:malloc
+   fun:_ZN8ambulant3net22demux_audio_datasource10data_availExPKhi
+   fun:_ZN8ambulant3net12ffmpeg_demux3runEv
+   fun:_ZN8ambulant3lib4unix6thread10threadprocEPv
+   fun:start_thread
+   fun:clone
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   Ambulant-Leak-TBD-7
+   Memcheck:Leak
+   fun:_Znwj
+   fun:_ZN8ambulant3gui3gtk25create_gtk_window_factoryEPNS1_19gtk_ambulant_widgetEP10_GMainLoopPNS_6common10gui_playerE
+   fun:_ZN12gtk_mainloop19init_window_factoryEv
+   fun:_ZN8ambulant6common9factories14init_factoriesEv
+   fun:_ZN12gtk_mainloopC1EP7gtk_gui
+   fun:_ZN7gtk_gui12openSMILfileEPKcib
+   fun:main
+}
+{
+   Ambulant-Leak-TBD-8
+   Memcheck:Leak
+   fun:_Znwj
+   fun:_ZN12gtk_mainloop23init_datasource_factoryEv
+   fun:_ZN8ambulant6common9factories14init_factoriesEv
+   fun:_ZN12gtk_mainloopC1EP7gtk_gui
+   fun:_ZN7gtk_gui12openSMILfileEPKcib
+   fun:main
+}
+{
+   Ambulant-Leak-TBD-9
+   Memcheck:Leak
+   fun:calloc
+   fun:g_malloc0
+   obj:/lib/libgobject-2.0.so.0.1200.9
+   obj:/lib/libgobject-2.0.so.0.1200.9
+   fun:g_type_register_fundamental
+   obj:/lib/libgobject-2.0.so.0.1200.9
+   fun:g_type_init_with_debug_flags
+   fun:g_type_init
+   fun:gdk_pre_parse_libgtk_only
+   obj:/usr/lib/libgtk-x11-2.0.so.0.1000.8
+   fun:g_option_context_parse
+   fun:gtk_parse_args
+}
+{
+   Ambulant-Leak-TBD-10
+   Memcheck:Leak
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.1
+   fun:_ZN8ambulant3lib4unix6thread5startEv
+   fun:_ZN8ambulant3net29ffmpeg_raw_datasource_factory18new_raw_datasourceERKNS0_3urlE
+   fun:_ZN8ambulant3net18datasource_factory18new_raw_datasourceERKNS0_3urlE
+   fun:_ZN8ambulant6common20renderer_playable_dsC2EPNS0_21playable_notificationEiPKNS_3lib14node_interfaceEPNS4_15event_processorEPNS0_9factoriesE
+   fun:_ZN8ambulant6common23renderer_playable_dsallC2EPNS0_21playable_notificationEiPKNS_3lib14node_interfaceEPNS4_15event_processorEPNS0_9factoriesE
+   fun:_ZN8ambulant3gui3gtk12gtk_rendererINS_6common23renderer_playable_dsallEEC2EPNS3_21playable_notificationEiPKNS_3lib14node_interfaceEPNS8_15event_processorEPNS3_9factoriesE
+   fun:_ZN8ambulant3gui3gtk18gtk_image_rendererC1EPNS_6common21playable_notificationEiPKNS_3lib14node_interfaceEPNS6_15event_processorEPNS3_9factoriesE
+   fun:_ZN8ambulant3gui3gtk20gtk_renderer_factory12new_playableEPNS_6common21playable_notificationEiPKNS_3lib14node_interfaceEPNS6_15event_processorE
+   fun:_ZN8ambulant6common28global_playable_factory_impl12new_playableEPNS0_21playable_notificationEiPKNS_3lib14node_interfaceEPNS4_15event_processorE
+}
+{
+   Ambulant-Leak-TBD-11
+   Memcheck:Leak
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.1
+   fun:_ZN8ambulant3lib4unix6thread5startEv
+   fun:_ZN8ambulant3net29ffmpeg_raw_datasource_factory18new_raw_datasourceERKNS0_3urlE
+   fun:_ZN8ambulant3net18datasource_factory18new_raw_datasourceERKNS0_3urlE
+   fun:_ZN8ambulant6common20renderer_playable_dsC2EPNS0_21playable_notificationEiPKNS_3lib14node_interfaceEPNS4_15event_processorEPNS0_9factoriesE
+   fun:_ZN8ambulant6common23renderer_playable_dsallC2EPNS0_21playable_notificationEiPKNS_3lib14node_interfaceEPNS4_15event_processorEPNS0_9factoriesE
+   fun:_ZN8ambulant3gui3gtk12gtk_rendererINS_6common23renderer_playable_dsallEEC2EPNS3_21playable_notificationEiPKNS_3lib14node_interfaceEPNS8_15event_processorEPNS3_9factoriesE
+   fun:_ZN8ambulant3gui3gtk18gtk_image_rendererC1EPNS_6common21playable_notificationEiPKNS_3lib14node_interfaceEPNS6_15event_processorEPNS3_9factoriesE
+   fun:_ZN8ambulant3gui3gtk20gtk_renderer_factory12new_playableEPNS_6common21playable_notificationEiPKNS_3lib14node_interfaceEPNS6_15event_processorE
+   fun:_ZN8ambulant6common28global_playable_factory_impl12new_playableEPNS0_21playable_notificationEiPKNS_3lib14node_interfaceEPNS4_15event_processorE
+}
+## Ambulant-Leak-X: Can't fix
+{
+   Ambulant-Leak-X-1
+   fun:malloc
+   obj:/usr/lib/libXcursor.so.1.0.2
+   obj:*
+}
+{
+   Ambulant-Leak-X-2
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/libXcursor.so.1.0.2
+   obj:/usr/lib/libXcursor.so.1.0.2
+   fun:XcursorXcFileLoadImages
+}
+## Ambulant-Leak-SDL: Can't fix
+{
+   Ambulant-Leak-SDL-1
+   Memcheck:Leak
+   fun:malloc
+   fun:snd_dlobj_cache_add
+   obj:/lib/libasound.so.2.0.0
+   obj:/lib/libasound.so.2.0.0
+   obj:*
+}
+## Ambulant-Leak-expat: Can't fix
+{
+   Ambulant-Leak-expat-1
+   Memcheck:Leak
+   fun:malloc
+   fun:FcStrCopy
+   obj:/usr/lib/libfontconfig.so.1.1.0
+   obj:/lib/libexpat.so.0.5.0
+   obj:*
+}
+{
+   Ambulant-Leak-expat-2
+   Memcheck:Leak
+   fun:malloc
+   obj:/usr/lib/libfontconfig.so.1.1.0
+   obj:/usr/lib/libfontconfig.so.1.1.0
+   obj:/usr/lib/libfontconfig.so.1.1.0
+   obj:/usr/lib/libfontconfig.so.1.1.0
+   obj:/lib/libexpat.so.0.5.0
+   obj:*
+}
+## Ambulant-Leak-qt: Can't fix
+{
+   Ambulant-Leak-qt-1
+   Memcheck:Leak
+   fun:realloc
+   obj:/usr/lib/libfontconfig.so.1.1.0
+   obj:/usr/lib/libfontconfig.so.1.1.0
+   obj:/usr/lib/libfontconfig.so.1.1.0
+   fun:FcFontRenderPrepare
+   fun:FcFontSetMatch
+   fun:FcFontMatch
+   fun:XftFontMatch
+   obj:/usr/lib/qt-3.3/lib/libqt-mt.so.3.3.7
+   fun:_ZN13QFontDatabase8findFontEN5QFont6ScriptEPK12QFontPrivateRK8QFontDefi
+   fun:_ZN12QFontPrivate4loadEN5QFont6ScriptE
+   fun:_ZNK12QFontMetrics6heightEv
+}
+## Ambulant-Leak-SDL: Can't fix
+{
+   Ambulant-Leak-SDL-1
+   Memcheck:Leak
+   fun:calloc
+   obj:/lib/libasound.so.2.0.0
+   obj:/lib/libasound.so.2.0.0
+   obj:/lib/libasound.so.2.0.0
+   obj:/lib/libasound.so.2.0.0
+   obj:/lib/libasound.so.2.0.0
+   fun:snd_config_update_r
+   fun:snd_config_update
+   fun:snd_pcm_open
+   obj:/usr/lib/libSDL-1.2.so.0.11.0
+   fun:SDL_AudioInit
+   fun:SDL_InitSubSystem
+}
+## Ambulant-Leak-pango: Can't fix
+{
+   Ambulant-Leak-pango-1
+   Memcheck:Leak
+   fun:realloc
+   obj:/usr/lib/libfontconfig.so.1.1.0
+   obj:/usr/lib/libfontconfig.so.1.1.0
+   obj:/usr/lib/libfontconfig.so.1.1.0
+   fun:FcFontRenderPrepare
+   obj:/usr/lib/libpangoft2-1.0.so.0.1400.10
+   fun:pango_font_map_load_fontset
+   obj:/usr/lib/libpango-1.0.so.0.1400.10
+   fun:pango_itemize_with_base_dir
+   obj:/usr/lib/libpango-1.0.so.0.1400.10
+   obj:/usr/lib/libpango-1.0.so.0.1400.10
+   obj:/usr/lib/libgtk-x11-2.0.so.0.1000.8
+}
+## Ambulant-Leak-gtk: Can't fix
+{
+   Ambulant-Leak-gtk-1
+   Memcheck:Leak
+   fun:memalign
+   fun:posix_memalign
+   obj:/lib/libglib-2.0.so.0.1200.9
+   fun:g_slice_alloc
+   fun:g_slice_alloc0
+   fun:g_type_create_instance
+   obj:/lib/libgobject-2.0.so.0.1200.9
+   fun:g_object_newv
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:gdk_display_open
+   fun:gdk_display_open_default_libgtk_only
+}
+## Ambulant-Leak-OK: Won't fix
+{
+# singleton object 
+   Ambulant-Leak-OK-1
+   Memcheck:Leak
+   fun:_Znwj
+   fun:_ZNSs4_Rep9_S_createEjjRKSaIcE
+   obj:/usr/lib/libstdc++.so.6.0.8
+   fun:_ZNSsC1EPKcRKSaIcE
+   fun:_ZN8ambulant6common13plugin_engine26collect_plugin_directoriesEv
+   fun:_ZN8ambulant6common13plugin_engineC1Ev
+   obj:*
+}
+{
+   Ambulant-Helgrind-Race-1
+   Helgrind:Race
+   fun:_ZNK8ambulant3lib18timer_control_impl7runningEv
+   fun:*
+}
+
+## Additions for python-plugin TBD
+{
+   Ambulant-python-plugin-1
+   Memcheck:Cond
+   fun:PyObject_Free
+   fun:*
+}
+{
+   Ambulant-python-plugin-2
+   Memcheck:Value8
+   fun:PyObject_Free
+   fun:*
+}
+{
+   Ambulant-python-plugin-3
+   Memcheck:Addr4
+   fun:PyObject_Free
+   fun:*
+}
+{
+   Ambulant-python-plugin-4
+   Memcheck:Param
+   fun:PyObject_Free
+   fun:*
+}
+{
+   Ambulant-python-plugin-5
+   Memcheck:Value8
+   fun:PyObject_Realloc
+   fun:*
+}
+{
+   Ambulant-python-plugin-6
+   Memcheck:Addr4
+   fun:PyObject_Realloc
+   fun:*
+}
+{
+   Ambulant-python-plugin-7
+   Memcheck:Cond
+   fun:PyObject_Realloc
+   fun:*
+}
+{
+   Ambulant-python-plugin-8
+   Memcheck:Param
+   fun:PyObject_Realloc
+   fun:*
+}
+## Added for 'helgrind'
+{
+   Ambulant-helgrind-1
+   Helgrind:Misc
+   obj:/usr/lib/valgrind/vgpreload_helgrind-amd64-linux.so
+   obj:/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+   fun:*
+}
+{
+   Ambulant-helgrind-2
+   Helgrind:Misc
+   obj:/usr/lib/valgrind/vgpreload_helgrind-amd64-linux.so
+   obj:/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+   fun:xcb_wait_for_reply
+   fun:*
+}
+{
+   Ambulant-helgrind-3
+   Helgrind:LockOrder
+   fun:pthread_mutex_lock
+   fun:*
+}
+# ignore pulseaudio
+{
+   Ambulant-helgrind-4
+   Helgrind:Race
+   fun:pa_once_begin
+   fun:*
+}
+{
+   Ambulant-helgrind-5
+   Helgrind:Race
+   fun:pa_thread_self
+   fun:*
+}
+{
+   Ambulant-helgrind-6
+   Helgrind:Race
+   obj:/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-3.0.so
+   fun:*
+}
+{
+   Ambulant-helgrind-7
+   Helgrind:Race
+   fun:pa_tls_set
+   fun:*
+}
+{
+   Ambulant-helgrind-8
+   Helgrind:Misc
+   obj:/usr/lib/valgrind/vgpreload_helgrind-amd64-linux.so
+   fun:*
+}
+{
+   Ambulant-helgrind-9
+   Helgrind:Misc
+   obj:/usr/lib/valgrind/vgpreload_helgrind-amd64-linux.so
+   fun:*
+}

@@ -1,0 +1,1101 @@
++ run: pkg-config --atleast-version=2.0.12 SDL2_ttf
++ run status: 1
++ mirror download: http://www.ambulantplayer.org/thirdpartymirror/2.6/SDL2_ttf-2.0.12.tar.gz
++ download status: success
++ run: tar xf SDL2_ttf-2.0.12.tar.gz
+tar: SDL2_ttf-2.0.12/acinclude: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/aclocal.m4: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Android.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/autogen.sh: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/CHANGES.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/config.guess: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/config.sub: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/configure: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/configure.in: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/COPYING.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/debian: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/depcomp: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/gcc-fat.sh: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/glfont.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/install-sh: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/ltmain.sh: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Makefile.am: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Makefile.in: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/missing: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/README.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/SDL2_ttf.pc.in: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/SDL2_ttf.spec: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/SDL2_ttf.spec.in: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/SDL_ttf.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/SDL_ttf.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/showfont.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/version.rc: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode-iOS/SDL_ttf.xcodeproj/project.pbxproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode-iOS/SDL_ttf.xcodeproj: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode-iOS: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/glfont: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Info-Framework.plist: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/package: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/pkg-support: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/SDL_ttf.xcodeproj: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/showfont/English.lproj: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/showfont/Info-showfont__Upgraded_.plist: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/showfont/SDLMain.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/showfont/SDLMain.m: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/showfont/showfont.xcodeproj/project.pbxproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/showfont/showfont.xcodeproj: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/showfont/English.lproj/InfoPlist.strings: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/showfont: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/SDL_ttf.xcodeproj/project.pbxproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/pkg-support/codesign-frameworks.sh: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/pkg-support/mkpackage.sh: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/pkg-support/resources: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/pkg-support/SDL_ttf.info: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/pkg-support/resources/ReadMe.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/pkg-support/resources/Welcome.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/glfont/English.lproj: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/glfont/glfont.xcodeproj: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/glfont/Info-glfont__Upgraded_.plist: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/glfont/SDLMain.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/glfont/SDLMain.m: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/glfont/glfont.xcodeproj/project.pbxproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/glfont/English.lproj/InfoPlist.strings: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/FreeType: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/LICENSE.freetype.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Resources: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/FreeType: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Resources/English.lproj: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Resources/Info.plist: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Resources/English.lproj/InfoPlist.strings: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Resources: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/ft2build.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/config: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/freetype.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftadvanc.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftautoh.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftbbox.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftbdf.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftbitmap.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftbzip2.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftcache.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftcffdrv.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftchapters.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftcid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/fterrdef.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/fterrors.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftgasp.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftglyph.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftgxval.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftgzip.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftimage.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftincrem.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftlcdfil.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftlist.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftlzw.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftmac.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftmm.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftmodapi.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftmoderr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftotval.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftoutln.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftpfr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftrender.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftsizes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftsnames.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftstroke.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftsynth.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftsystem.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/fttrigon.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/fttypes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftwinfnt.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ftxf86.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/t1tables.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ttnameid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/tttables.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/tttags.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/ttunpat.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/config/ftconfig.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/config/ftheader.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/config/ftmodule.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/config/ftoption.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current/Headers/freetype/config/ftstdlib.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/Current: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/FreeType: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Resources/English.lproj: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Resources/Info.plist: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Resources/English.lproj/InfoPlist.strings: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Resources: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/ft2build.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/config: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/freetype.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftadvanc.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftautoh.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftbbox.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftbdf.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftbitmap.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftbzip2.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftcache.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftcffdrv.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftchapters.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftcid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/fterrdef.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/fterrors.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftgasp.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftglyph.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftgxval.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftgzip.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftimage.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftincrem.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftlcdfil.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftlist.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftlzw.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftmac.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftmm.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftmodapi.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftmoderr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftotval.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftoutln.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftpfr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftrender.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftsizes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftsnames.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftstroke.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftsynth.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftsystem.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/fttrigon.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/fttypes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftwinfnt.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ftxf86.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/t1tables.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ttnameid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/tttables.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/tttags.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/ttunpat.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/config/ftconfig.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/config/ftheader.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/config/ftmodule.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/config/ftoption.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions/A/Headers/freetype/config/ftstdlib.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Versions: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Resources/English.lproj: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Resources/Info.plist: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Resources/English.lproj/InfoPlist.strings: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/ft2build.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/config: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/freetype.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftadvanc.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftautoh.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftbbox.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftbdf.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftbitmap.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftbzip2.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftcache.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftcffdrv.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftchapters.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftcid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/fterrdef.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/fterrors.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftgasp.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftglyph.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftgxval.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftgzip.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftimage.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftincrem.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftlcdfil.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftlist.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftlzw.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftmac.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftmm.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftmodapi.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftmoderr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftotval.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftoutln.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftpfr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftrender.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftsizes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftsnames.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftstroke.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftsynth.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftsystem.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/fttrigon.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/fttypes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftwinfnt.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ftxf86.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/t1tables.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ttnameid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/tttables.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/tttags.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/ttunpat.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/config/ftconfig.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/config/ftheader.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/config/ftmodule.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/config/ftoption.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework/Headers/freetype/config/ftstdlib.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/Xcode/Frameworks/FreeType.framework: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/VisualC/clean.sh: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/VisualC/glfont: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/VisualC/resource.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/SDL_ttf_VS2008.sln: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/SDL_ttf_VS2008.vcproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/SDL_ttf_VS2010.sln: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/SDL_ttf_VS2010.vcxproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/SDL_ttf_VS2012.sln: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/SDL_ttf_VS2012.vcxproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/showfont: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/VisualC/Version.rc: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/showfont/showfont_VS2008.vcproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/showfont/showfont_VS2010.vcxproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/showfont/showfont_VS2012.vcxproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/glfont/glfont_VS2008.vcproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/glfont/glfont_VS2010.vcxproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/glfont/glfont_VS2012.vcxproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/VisualC/external/lib/x64: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/VisualC/external/lib/x86/libfreetype-6.dll: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/lib/x86/libfreetype-6.lib: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/lib/x86/LICENSE.freetype.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/lib/x86/LICENSE.zlib.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/lib/x86/zlib1.dll: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/lib/x86: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/VisualC/external/lib/x64/libfreetype-6.dll: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/lib/x64/libfreetype-6.lib: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/lib/x64/LICENSE.freetype.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/lib/x64/LICENSE.zlib.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/lib/x64/zlib1.dll: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/lib: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/VisualC/external/include/ft2build.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/config: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/freetype.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftadvanc.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftautoh.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftbbox.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftbdf.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftbitmap.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftbzip2.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftcache.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftcffdrv.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftchapters.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftcid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/fterrdef.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/fterrors.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftgasp.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftglyph.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftgxval.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftgzip.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftimage.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftincrem.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftlcdfil.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftlist.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftlzw.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftmac.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftmm.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftmodapi.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftmoderr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftotval.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftoutln.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftpfr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftrender.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftsizes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftsnames.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftstroke.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftsynth.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftsystem.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/fttrigon.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/fttypes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftwinfnt.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ftxf86.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/t1tables.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ttnameid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/tttables.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/tttags.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/ttunpat.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/config/ftconfig.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/config/ftheader.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/config/ftmodule.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/config/ftoption.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/VisualC/external/include/freetype/config/ftstdlib.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/autogen.sh: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/ChangeLog: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/ChangeLog.20: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/ChangeLog.21: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/ChangeLog.22: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/ChangeLog.23: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/configure: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/devel: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/Jamrules: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/modules.cfg: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/objs: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/README: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/README.git: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/version.sed: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/vms_make.com: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bdf: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bzip2: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/lzw: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psnames: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/smooth: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/winfonts/fnterrs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/winfonts/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/winfonts/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/winfonts/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/winfonts/winfnt.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/winfonts/winfnt.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/winfonts: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42/t42drivr.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42/t42drivr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42/t42error.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42/t42objs.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42/t42objs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42/t42parse.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42/t42parse.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42/t42types.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type42/type42.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1afm.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1afm.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1driver.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1driver.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1errors.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1gload.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1gload.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1load.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1load.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1objs.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1objs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1parse.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1parse.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/t1tokens.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/type1/type1.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/truetype.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttdriver.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttdriver.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/tterrors.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttgload.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttgload.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttgxvar.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttgxvar.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttinterp.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttinterp.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttobjs.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttobjs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttpic.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttpic.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttpload.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttpload.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttsubpix.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/truetype/ttsubpix.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/apinames.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/chktrcmp.py: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/cordic.py: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/docmaker: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/ftrandom: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/glnames.py: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/test_afm.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/test_bbox.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/test_trig.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/ftrandom/ftrandom.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/ftrandom/README: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/docmaker/content.py: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/docmaker/docbeauty.py: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/docmaker/docmaker.py: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/docmaker/formatter.py: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/docmaker/sources.py: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/docmaker/tohtml.py: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/tools/docmaker/utils.py: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/smooth/ftgrays.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/smooth/ftgrays.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/smooth/ftsmerrs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/smooth/ftsmooth.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/smooth/ftsmooth.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/smooth/ftspic.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/smooth/ftspic.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/smooth/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/smooth/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/smooth/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/smooth/smooth.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/sfdriver.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/sfdriver.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/sferrors.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/sfnt.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/sfntpic.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/sfntpic.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/sfobjs.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/sfobjs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttbdf.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttbdf.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttcmap.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttcmap.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttcmapc.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttkern.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttkern.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttload.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttload.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttmtx.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttmtx.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttpost.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttpost.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttsbit.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttsbit.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/sfnt/ttsbit0.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster/ftmisc.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster/ftraster.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster/ftraster.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster/ftrend1.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster/ftrend1.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster/raster.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster/rasterrs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster/rastpic.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster/rastpic.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/raster/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psnames/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psnames/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psnames/psmodule.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psnames/psmodule.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psnames/psnamerr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psnames/psnames.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psnames/pspic.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psnames/pspic.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psnames/pstables.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psnames/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/pshalgo.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/pshalgo.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/pshglob.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/pshglob.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/pshinter.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/pshmod.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/pshmod.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/pshnterr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/pshpic.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/pshpic.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/pshrec.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/pshrec.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pshinter/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/afmparse.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/afmparse.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/psaux.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/psauxerr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/psauxmod.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/psauxmod.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/psconv.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/psconv.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/psobjs.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/psobjs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/t1cmap.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/t1cmap.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/t1decode.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/psaux/t1decode.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfr.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrcmap.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrcmap.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrdrivr.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrdrivr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrerror.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrgload.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrgload.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrload.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrload.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrobjs.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrobjs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrsbit.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrsbit.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/pfrtypes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pfr/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/pcf.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/pcf.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/pcfdrivr.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/pcfdrivr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/pcferror.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/pcfread.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/pcfread.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/pcfutil.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/pcfutil.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/README: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/pcf/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvalid.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvalid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvbase.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvcommn.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvcommn.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otverror.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvgdef.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvgpos.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvgpos.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvgsub.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvjstf.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvmath.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvmod.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/otvmod.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/otvalid/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/lzw/ftlzw.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/lzw/ftzopen.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/lzw/ftzopen.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/lzw/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/lzw/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/adler32.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/ftgzip.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/infblock.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/infblock.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/infcodes.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/infcodes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/inffixed.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/inflate.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/inftrees.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/inftrees.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/infutil.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/infutil.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/zconf.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/zlib.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/zutil.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gzip/zutil.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvalid.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvalid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvbsln.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvcommn.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvcommn.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxverror.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvfeat.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvfeat.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvfgen.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvjust.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvkern.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvlcar.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmod.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmod.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmort.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmort.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmort0.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmort1.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmort2.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmort4.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmort5.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmorx.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmorx.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmorx0.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmorx1.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmorx2.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmorx4.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvmorx5.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvopbd.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvprop.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/gxvtrak.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/README: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/gxvalid/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/ciderrs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/cidgload.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/cidgload.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/cidload.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/cidload.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/cidobjs.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/cidobjs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/cidparse.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/cidparse.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/cidriver.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/cidriver.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/cidtoken.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cid/type1cid.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2arrst.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2arrst.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2blues.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2blues.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2error.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2error.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2fixed.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2font.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2font.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2ft.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2ft.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2glue.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2hints.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2hints.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2intrp.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2intrp.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2read.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2read.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2stack.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2stack.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cf2types.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cff.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffcmap.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffcmap.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffdrivr.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffdrivr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cfferrs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffgload.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffgload.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffload.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffload.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffobjs.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffobjs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffparse.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffparse.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffpic.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cffpic.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cfftoken.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/cfftypes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cff/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcache.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcbasic.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftccache.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftccache.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftccback.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftccmap.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcerror.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcglyph.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcglyph.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcimage.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcimage.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcmanag.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcmanag.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcmru.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcmru.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcsbits.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/ftcsbits.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/cache/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bzip2/ftbzip2.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bzip2/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bzip2/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bdf/bdf.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bdf/bdf.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bdf/bdfdrivr.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bdf/bdfdrivr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bdf/bdferror.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bdf/bdflib.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bdf/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bdf/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bdf/README: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/bdf/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/basepic.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/basepic.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftadvanc.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftapi.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftbase.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftbase.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftbbox.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftbdf.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftbitmap.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftcalc.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftcid.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftdbgmem.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftdebug.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftfstype.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftgasp.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftgloadr.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftglyph.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftgxval.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftinit.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftlcdfil.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftmac.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftmm.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftobjs.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftotval.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftoutln.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftpatent.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftpfr.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftpic.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftrfork.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftsnames.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftstream.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftstroke.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftsynth.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftsystem.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/fttrigon.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/fttype1.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftutil.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftwinfnt.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/ftxf86.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/md5.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/md5.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/base/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afangles.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afangles.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afcjk.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afcjk.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afdummy.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afdummy.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/aferrors.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afglobal.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afglobal.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afhints.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afhints.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afindic.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afindic.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/aflatin.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/aflatin.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/aflatin2.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/aflatin2.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afloader.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afloader.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afmodule.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afmodule.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afpic.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afpic.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/aftypes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afwarp.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/afwarp.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/autofit.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/Jamfile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/module.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/src/autofit/rules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/objs/README: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/ft2build.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/config: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/freetype.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftadvanc.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftautoh.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftbbox.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftbdf.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftbitmap.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftbzip2.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftcache.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftcffdrv.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftchapters.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftcid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/fterrdef.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/fterrors.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftgasp.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftglyph.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftgxval.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftgzip.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftimage.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftincrem.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftlcdfil.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftlist.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftlzw.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftmac.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftmm.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftmodapi.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftmoderr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftotval.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftoutln.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftpfr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftrender.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftsizes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftsnames.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftstroke.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftsynth.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftsystem.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/fttrigon.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/fttypes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftwinfnt.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ftxf86.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/t1tables.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ttnameid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/tttables.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/tttags.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/ttunpat.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/autohint.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/ftcalc.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/ftdebug.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/ftdriver.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/ftgloadr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/ftmemory.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/ftobjs.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/ftpic.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/ftrfork.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/ftserv.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/ftstream.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/fttrace.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/ftvalid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/internal.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/psaux.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/pshints.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/sfnt.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/t1types.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/tttypes.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svbdf.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svcid.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svgldict.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svgxval.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svkern.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svmm.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svotval.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svpfr.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svpostnm.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svprop.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svpscmap.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svpsinfo.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svsfnt.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svttcmap.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svtteng.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svttglyf.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svwinfnt.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/internal/services/svxf86nm.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/config/ftconfig.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/config/ftheader.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/config/ftmodule.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/config/ftoption.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/include/freetype/config/ftstdlib.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/CHANGES: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/CUSTOMIZE: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/DEBUG: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/formats.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/FTL.TXT: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/GPLv2.TXT: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/INSTALL: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/INSTALL.ANY: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/INSTALL.CROSS: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/INSTALL.GNU: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/INSTALL.MAC: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/INSTALL.UNIX: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/INSTALL.VMS: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/LICENSE.TXT: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/MAKEPP: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/PROBLEMS: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/raster.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/reference: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/release: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/TODO: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/VERSION.DLL: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/docs/reference/README: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/devel/ft2build.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/devel/ftoption.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/ansi: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/atari: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/beos: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/detect.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/dos: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/exports.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/freetype.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/link_dos.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/link_std.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/mac: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/modules.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/newline: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/os2: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/symbian: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/toplevel.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/vms: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/wince/ftdebug.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/wince/vc2005-ce: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/wince/vc2008-ce/freetype.sln: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/wince/vc2008-ce/freetype.vcproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/wince/vc2008-ce/index.html: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/wince/vc2008-ce: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/wince/vc2005-ce/freetype.sln: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/wince/vc2005-ce/freetype.vcproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/wince/vc2005-ce/index.html: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/wince: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/detect.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/ftdebug.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2005: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2008: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2010: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/visualc: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/visualce: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/w32-bcc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/w32-bccd.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/w32-dev.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/w32-gcc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/w32-icc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/w32-intl.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/w32-lcc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/w32-mingw32.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/w32-vcc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/w32-wat.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/win32-def.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/visualce/freetype.dsp: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/visualce/freetype.dsw: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/visualce/freetype.vcproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/visualce/index.html: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/visualc/freetype.dsp: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/visualc/freetype.dsw: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/visualc/freetype.sln: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/visualc/freetype.vcproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/visualc/index.html: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2010/freetype.sln: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2010/freetype.vcxproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2010/freetype.vcxproj.filters: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2010/index.html: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2008/freetype.sln: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2008/freetype.vcproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2008/index.html: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2005/freetype.sln: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2005/freetype.vcproj: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/win32/vc2005/index.html: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/vms/ftconfig.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/vms/ftsystem.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/aclocal.m4: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/config.guess: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/config.sub: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/configure: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/configure.ac: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/configure.raw: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/detect.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/freetype-config.in: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/freetype2.in: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/freetype2.m4: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/ft-munmap.m4: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/ft2unix.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/ftconfig.in: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/ftsystem.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/install-sh: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/install.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/ltmain.sh: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/mkinstalldirs: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/unix-cc.in: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/unix-def.in: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/unix-dev.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/unix-lcc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/unix.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/unix/unixddef.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/symbian/bld.inf: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/symbian/freetype.mmp: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/os2/detect.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/os2/os2-def.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/os2/os2-dev.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/os2/os2-gcc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/mac/ascii2mpw.py: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/mac/FreeType.m68k_cfm.make.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/mac/FreeType.m68k_far.make.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/mac/FreeType.ppc_carbon.make.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/mac/FreeType.ppc_classic.make.txt: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/mac/ftlib.prj.xml: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/mac/ftmac.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/mac/README: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/dos/detect.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/dos/dos-def.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/dos/dos-emx.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/dos/dos-gcc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/dos/dos-wat.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler/ansi-cc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler/bcc-dev.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler/bcc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler/emx.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler/gcc-dev.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler/gcc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler/intelc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler/unix-lcc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler/visualage.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler/visualc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler/watcom.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/compiler/win-lcc.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/beos/beos-def.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/beos/beos.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/beos/detect.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/atari/ATARI.H: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/atari/deflinejoiner.awk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/atari/FNames.SIC: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/atari/FREETYPE.PRJ: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/atari/gen-purec-patch.sh: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/atari/README.TXT: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/ansi/ansi-def.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/ansi/ansi.mk: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/include: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/makefile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/makefile.os4: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/README: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/smakefile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/src/base/ftdebug.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/src/base/ftsystem.c: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/src/base: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/src: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/include/freetype/config/ftconfig.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/include/freetype/config/ftmodule.h: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/include/freetype/config: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12/builds/amiga/include/freetype: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/external/freetype-2.4.12: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/debian/changelog: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/debian/compat: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/debian/control: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/debian/copyright: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/debian/docs: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/debian/examples: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/debian/libsdl2-ttf-dev.examples: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/debian/libsdl2-ttf-dev.install: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/debian/libsdl2-ttf.install: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/debian/rules: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/debian/source: Cannot utime: Operation not permitted
+tar: SDL2_ttf-2.0.12/debian/watch: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/debian/source/format: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/debian/examples/Makefile: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/acinclude/libtool.m4: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/acinclude/ltoptions.m4: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/acinclude/ltsugar.m4: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/acinclude/ltversion.m4: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/acinclude/lt~obsolete.m4: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/acinclude/pkg.m4: Cannot open: File exists
+tar: SDL2_ttf-2.0.12/acinclude/sdl2.m4: Cannot open: File exists
+tar: SDL2_ttf-2.0.12: Cannot utime: Operation not permitted
+tar: Exiting with failure status due to previous errors
++ run status: 2
++ not installed

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8C83D0F9-883F-4677-85CE-FEE59F194124}</ProjectGuid>
+    <RootNamespace>AmbulantActiveX-installer</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Ambulant-win32.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Ambulant-win32.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BUILD\$(ProjectName)-$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">:: Script to create CAB file for IEAmbulant ActiveX plugin.
+:: NOTE: Do not run this script, btu copy the contents into
+:: the IEAmbulant-Installer project, "make" command lines.
+::
+:: This script expects to be run from within Visual Studio only,
+:: because it depends on various variable names defined there.
+::
+:: NOTE: if you change this file you must also change the
+:: AmbulantActiveX.inf file, the contents of the two files
+:: MUST match.
+::
+:: For an example how to use the .cab, see: ieambulentWeb.htm
+:: ----------------------------------------------------------------------------
+:: copy all files for the cab into this directory
+%40echo on
+
+;; VS2010 no longer seems to set this...
+set TargetPath=$(OutDir)ieambulant-2.6-win32.cab
+;;
+%40echo "copying all files for the cab into this directory"
+del /q $(IntDir)*.*
+mkdir $(IntDir)
+::
+:: redistributable C-runtime
+copy ^"$(WindowsSDKDir)\Bootstrapper\Packages\vcredist_x86\vcredist_x86.exe^" $(IntDir)vcredist_x86.exe
+:: Ambulant dll%27s
+copy ..\..\bin\win32\AmbulantActiveX-DBG.dll $(IntDir)AmbulantActiveX-DBG.dll
+copy ..\..\bin\win32\libambulant_shwin32_D.dll $(IntDir)libambulant_shwin32_D.dll
+copy ..\..\bin\win32\libampluginD_ffmpeg.dll $(IntDir)libampluginD_ffmpeg.dll 
+copy ..\..\bin\win32\libampluginD_state_xpath.dll $(IntDir)libampluginD_state_xpath.dll
+copy ..\..\bin\win32\avcodec-55.dll $(IntDir)avcodec-55.dll
+copy ..\..\bin\win32\avformat-55.dll $(IntDir)avformat-55.dll 
+copy ..\..\bin\win32\avutil-52.dll $(IntDir)avutil-52.dll
+copy ..\..\bin\win32\swresample-0.dll $(IntDir)swresample-0.dll
+copy ..\..\bin\win32\swscale-2.dll $(IntDir)swscale-2.dll
+copy ..\..\bin\win32\SDL.dll $(IntDir)SDL.dll
+copy ..\..\bin\win32\xerces-c_3_1.dll $(IntDir)xerces-c_3_1D.dll
+copy ..\..\src\ieambulant\AmbulantActiveX_D.inf $(IntDir)AmbulantActiveX_D.inf
+:: Create a new cabinet (.cab) archive
+^"$(CabArc)^" -s 6144 n %TargetPath% $(IntDir)*.exe $(IntDir)*.dll $(IntDir)*.inf
+:: Code sign it with code signing certificate (.pfx = Personal Information Exchange) 
+set signtool=^"$(WindowsSDKDir)Bin\signtool.exe^"
+%signtool% sign /f $(ieambulant_certificate) /p Ambulant /v %TargetPath%
+:: timestamp the signature
+%signtool% timestamp  /v /t "http://timestamp.verisign.com/scripts/timstamp.dll" %TargetPath%
+:: verify the resulting cabinet^" (.cab) archive
+%signtool% verify /v /a /pa %TargetPath%
+</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">:: Script to create CAB file for IEAmbulant ActiveX plugin.
+:: NOTE: Do not run this script, but copy the contents into
+:: the IEAmbulant-Installer project, "make" command lines.
+::
+:: This script expects to be run from within Visual Studio only,
+:: because it depends on various variable names defined there.
+::
+:: NOTE: if you change this file you must also change the
+:: AmbulantActiveX.inf file, the contents of the two files
+:: MUST match.
+::
+:: For an example how to use the .cab, see: ieambulentWeb.htm
+:: ----------------------------------------------------------------------------
+:: copy all files for the cab into this directory
+%40echo on
+
+;; VS2010 no longer seems to set this...
+set TargetPath=$(OutDir)ieambulant-2.6-win32.cab
+;;
+%40echo "copying all files for the cab into this directory"
+del /q $(IntDir)*.*
+mkdir $(IntDir)
+::
+:: redistributable C-runtime
+copy ^"$(WindowsSDKDir)\Bootstrapper\Packages\vcredist_x86\vcredist_x86.exe^" $(IntDir)vcredist_x86.exe
+:: Ambulant dll%27s
+copy ..\..\bin\win32\AmbulantActiveX-DBG.dll $(IntDir)AmbulantActiveX-DBG.dll
+copy ..\..\bin\win32\libambulant_shwin32_D.dll $(IntDir)libambulant_shwin32_D.dll
+copy ..\..\bin\win32\libampluginD_ffmpeg.dll $(IntDir)libampluginD_ffmpeg.dll 
+copy ..\..\bin\win32\libampluginD_state_xpath.dll $(IntDir)libampluginD_state_xpath.dll
+copy ..\..\bin\win32\avcodec-55.dll $(IntDir)avcodec-55.dll
+copy ..\..\bin\win32\avformat-55.dll $(IntDir)avformat-55.dll 
+copy ..\..\bin\win32\avutil-52.dll $(IntDir)avutil-52.dll
+copy ..\..\bin\win32\swresample-0.dll $(IntDir)swresample-0.dll
+copy ..\..\bin\win32\swscale-2.dll $(IntDir)swscale-2.dll
+copy ..\..\bin\win32\SDL.dll $(IntDir)SDL.dll
+copy ..\..\bin\win32\xerces-c_3_1.dll $(IntDir)xerces-c_3_1D.dll
+copy ..\..\src\ieambulant\AmbulantActiveX_D.inf $(IntDir)AmbulantActiveX_D.inf
+:: Create a new cabinet (.cab) archive
+^"$(CabArc)^" -s 6144 n %TargetPath% $(IntDir)*.exe $(IntDir)*.dll $(IntDir)*.inf
+:: Code sign it with code signing certificate (.pfx = Personal Information Exchange) 
+set signtool=^"$(WindowsSDKDir)Bin\signtool.exe^"
+%signtool% sign /f $(ieambulant_certificate) /p Ambulant /v %TargetPath%
+:: timestamp the signature
+%signtool% timestamp  /v /t "http://timestamp.verisign.com/scripts/timstamp.dll" %TargetPath%
+:: verify the resulting cabinet^" (.cab) archive
+%signtool% verify /v /a /pa %TargetPath%
+
+</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)ieambulant(debug)-2.6-win32.cab</NMakeOutput>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\bin\win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BUILD\$(ProjectName)-$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">:: Script to create CAB file for IEAmbulant ActiveX plugin.
+:: NOTE: Do not run this script, btu copy the contents into
+:: the IEAmbulant-Installer project, "make" command lines.
+::
+:: This script expects to be run from within Visual Studio only,
+:: because it depends on various variable names defined there.
+::
+:: NOTE: if you change this file you must also change the
+:: AmbulantActiveX.inf file, the contents of the two files
+:: MUST match.
+::
+:: For an example how to use the .cab, see: ieambulentWeb.htm
+:: ----------------------------------------------------------------------------
+:: copy all files for the cab into this directory
+@echo on
+
+:: VS2010 no longer seems to set this...
+set TargetPath=$(OutDir)ieambulant-2.6-win32.cab
+
+@echo "copying all files for the cab into this directory"
+del $(IntDir)\*.*
+mkdir $(IntDir)
+::
+:: redistributable C-runtime
+copy ^"$(WindowsSDKDir)\Bootstrapper\Packages\vcredist_x86\vcredist_x86.exe^" $(intdir)\vcredist_x86.exe
+:: Ambulant dll's
+copy ..\..\bin\win32\AmbulantActiveX.dll $(intdir)\AmbulantActiveX.dll
+copy ..\..\bin\win32\libambulant_shwin32.dll $(intdir)\libambulant_shwin32.dll
+copy ..\..\bin\win32\libamplugin_ffmpeg.dll $(intdir)\libamplugin_ffmpeg.dll 
+copy ..\..\bin\win32\libamplugin_state_xpath.dll $(intdir)\libamplugin_state_xpath.dll
+copy ..\..\bin\win32\avcodec-55.dll $(intdir)\avcodec-55.dll
+copy ..\..\bin\win32\avformat-55.dll $(intdir)\avformat-55.dll 
+copy ..\..\bin\win32\avutil-52.dll $(intdir)\avutil-52.dll
+copy ..\..\bin\win32\swresample-0.dll $(intdir)\swresample-0.dll
+copy ..\..\bin\win32\swscale-2.dll $(intdir)\swscale-2.dll
+copy ..\..\bin\win32\SDL.dll $(intdir)\SDL.dll
+copy ..\..\bin\win32\xerces-c_3_1.dll $(intdir)\xerces-c_3_1.dll
+copy ..\..\src\ieambulant\AmbulantActiveX.inf $(intdir)\AmbulantActiveX.inf
+:: Create a new cabinet (.cab) archive
+^"$(CabArc)^" -s 6144 n %TargetPath% $(IntDir)*.exe $(IntDir)*.dll $(IntDir)*.inf
+:: Code sign it with code signing certificate (.pfx = Personal Information Exchange) 
+set signtool=^"$(WindowsSDKDir)Bin\signtool.exe^"
+%signtool% sign /f $(ieambulant_certificate) /p Ambulant /v %TargetPath%
+:: timestamp the signature
+%signtool% timestamp  /v /t "http://timestamp.verisign.com/scripts/timstamp.dll" %TargetPath%
+:: verify the resulting cabinet^" (.cab) archive
+%signtool% verify /v /a /pa %TargetPath%
+</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    </NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)ieambulant-2.6-win32.cab</NMakeOutput>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <BuildLog>
+      <Path>Ambulant-ActiveX-installer-BuildLog.htm</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="readme.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

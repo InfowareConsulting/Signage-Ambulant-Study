@@ -1,0 +1,3 @@
++ run: test -d xulrunner-sdk
++ run status: 0
++ already installed
